@@ -72,7 +72,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code
 <pre><code><!-- put the exited code here -->&lt;!DOCTYPE html&gt;
 &lt;body&gt;
 
-Your Variable is: &lt;?php  echo $var;?&gt;
+Your Variable is: <?php  echo $var;?>
 
 &lt;/body&gt;
 &lt;/html&gt;</code></pre><!-- finish the exited code here -->   
