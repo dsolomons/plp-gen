@@ -13,7 +13,7 @@
 
 
 <!-- Meta -->
-<meta name="description" content="Pardot Landing Page Generator. Clicks not code (but some code, but it been made easy, so that's ok...">
+<meta name="description" content="Pardot Landing Page Generator. Clicks not code (but some code, but it has been made easy, so that's ok then!">
 
 
 <!-- Bootstrap core CSS -->
@@ -36,7 +36,7 @@
 
   <h1>PLP-Gen</h1>
   <p class="lead">
-    Pardot Landing Page Generator. Clicks not code (but some code, but it been made easy, so that's ok...
+    Pardot Landing Page Generator. Clicks not code (but some code, but it has been made easy, so that's ok then!
   </p>
 
 
