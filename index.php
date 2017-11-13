@@ -36,7 +36,7 @@
 
   <h1>PLP-Gen</h1>
   <p class="lead">
-    Pardot Landing Page Generator. Clicks not code (but some code, but it has been made easy, so thatmakes it ok then)!
+    Pardot Landing Page Generator. Clicks not code (but some code, but it has been made easy, so that makes it ok then)!
   </p>
 
 
