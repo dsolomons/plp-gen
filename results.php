@@ -69,8 +69,13 @@ $var = $_POST['var'];
 Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code to the pasteboard.</div>
 <div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><div class="highlight">
 
-<pre><code><!-- put the exited code here -->&lt;p&gt;so much htmls&lt;/p&gt;
-&lt;p&gt;all the <?php  echo $var?> 123htmls&lt;/p&gt; </code></pre><!-- finish the exited code here -->   
+<pre><code><!-- put the exited code here -->&lt;!DOCTYPE html&gt;
+&lt;body&gt;
+
+Your Variable is: &lt;?php  echo $var;?&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><!-- finish the exited code here -->   
 
 
 
