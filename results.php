@@ -46,16 +46,15 @@
 
     <div class="container">
       <div class="row">
-      
-                
-        
-  
-
-
-
-        </div>
+   </div>
      <div class="row">
       
+  <div class="col-md-12">         
+  <button class="btn btn-primary btn-xl text-uppercase" type="button">Create New</button>
+</div>
+
+
+
                 <div class="col-md-12">
             
         
@@ -402,7 +401,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code
       <div class="container">
 
   <p class="lead">
-    PLP-Gen by<br>
+    PLP-Gen V1.0 by<br>
     <img class="asset-image" src="Assets/Voltron_Logo_Rev_2.png" width="600px">
     <br>Landing Page Template Created By: Jenna Molby | www.jennamolby.com
   </p>

@@ -44,6 +44,14 @@
       </div>
     </div>
 
+              <div class="row" align="middle">
+              
+                <div class="col-md-12">
+              <img class="asset-image" src="Assets/xPLPL.png" width="70%">
+             </div>
+            </div>
+<br>
+
 <form action="results.php" method="post">
               <div class="row">
                 <div class="col-md-3">
@@ -123,7 +131,7 @@
       <div class="container">
 
     <p class="lead">
-    PLP-Gen by<br>
+    PLP-Gen V1.0 by<br>
     <img class="asset-image" src="Assets/Voltron_Logo_Rev_2.png" width="600px">
     <br>Landing Page Template Created By: Jenna Molby | www.jennamolby.com
   </p>
