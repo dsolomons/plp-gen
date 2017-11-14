@@ -25,8 +25,8 @@
 <link href="./Code · Bootstrap_files/docs.min.css" rel="stylesheet">
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" href="flav-p3.png">
-<link rel="icon" href="flav-p3.png">
+<link rel="apple-touch-icon" href="Assets/flav-p3.png">
+<link rel="icon" href="Assets/flav-p3.png">
 
 </header>
 
@@ -119,9 +119,10 @@
 <div class="bd-pageheader">
       <div class="container">
 
-  <h1>CREDITS</h1>
-  <p class="lead">
-    Tool created by Voltron Ventures<br>Landing Page Template Created By: Jenna Molby | www.jennamolby.com
+    <p class="lead">
+    PLP-Gen by<br>
+    <img class="asset-image" src="Assets/Voltron_Logo_Rev_2.png" width="600px">
+    <br>Landing Page Template Created By: Jenna Molby | www.jennamolby.com
   </p>
 
 
