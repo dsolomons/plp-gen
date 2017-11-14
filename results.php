@@ -307,7 +307,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code
       &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-sm-6&quot;&gt;
           &lt;div class=&quot;logo&quot; pardot-region=&quot;logo&quot;&gt; &lt;!-- This is the company logo --&gt;
-            &lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;<?php  echo $imageUrl;?>&amp;txt=lOGO&amp;w=220&amp;h=65&quot;&gt;&lt;/a&gt;
+           &lt;img src=&quot;<?php  echo $logo;?>&quot; style=&quot;height: 100%; width: 100%; max-height: 80px&quot;/&gt;
           &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;col-sm-6&quot;&gt;
