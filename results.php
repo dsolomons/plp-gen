@@ -228,7 +228,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code
         border-radius:0;
         -moz-border-radius:0;
         -webkit-border-radius:0;
-        font-family: &apos;Merriweather&apos;, serif;
+        font-family: &apos;Open Sans&apos;, sans-serif;
           -moz-appearance: none;
           -webkit-appearance: none;
           appearancce: none;
