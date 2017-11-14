@@ -25,8 +25,8 @@
 <link href="./Code · Bootstrap_files/docs.min.css" rel="stylesheet">
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" href="https://v4-alpha.getbootstrap.com/apple-touch-icon.png">
-<link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
+<link rel="apple-touch-icon" href="flav-p2.png">
+<link rel="icon" href="flav-p2.png">
 
 </header>
 
