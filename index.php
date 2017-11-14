@@ -13,7 +13,7 @@
 
 
 <!-- Meta -->
-<meta name="description" content="Pardot Landing Page Generator. Clicks not code (but some code, but it has been made easy, so that makes it ok then)!">
+<meta name="description" content="Pardot Landing Page Generator. Clicks not code (but some code, but Voltron made it easy, so that's ok...">
 
 
 <!-- Bootstrap core CSS -->
@@ -36,7 +36,7 @@
 
   <h1>PLP-Gen</h1>
   <p class="lead">
-    Pardot Landing Page Generator. Clicks not code (but some code, but it has been made easy, so that makes it ok then)!
+    Pardot Landing Page Generator. Clicks not code<br>(but some code, but Voltron made it easy, so that's ok then!)
   </p>
 
 
@@ -50,19 +50,86 @@
                 </div>
                 <div class="col-md-6">
 
-                 <!-- Logo URL -->
+                <!-- Logo URL -->
                 <div class="form-group">
-                    <input class="form-control" name="var" type="text" placeholder="var" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
+                    <input class="form-control" name="logo" type="text" placeholder="logo url" ></p>
+                </div>
+                <!-- head1  -->
+                <div class="form-group">
+                    <input class="form-control" name="head1" type="text" placeholder="head 1 text" ></p>
+                </div>
+                <!-- head1Colour -->
+                <div class="form-group">
+                    <input class="form-control" name="head1Colour" type="text" placeholder="head 1 colour" ></p>
+                </div>
+                <!-- head2 -->
+                <div class="form-group">
+                    <input class="form-control" name="head2" type="text" placeholder="head 2 text" ></p>
+                </div>
+                <!-- head2Colour -->
+                <div class="form-group">
+                    <input class="form-control" name="head2Colour" type="text" placeholder="head 2 colour" ></p>
+                </div>
+                <!-- formHead -->
+                <div class="form-group">
+                    <input class="form-control" name="formHead" type="text" placeholder="form head text" ></p>
+                </div>
+                <!-- formHeadColour -->
+                <div class="form-group">
+                    <input class="form-control" name="formHeadColour" type="text" placeholder="form head text colour" ></p>
+                </div>
+                <!-- formHeadBgColour -->
+                <div class="form-group">
+                    <input class="form-control" name="formHeadBgColour" type="text" placeholder="form head bg colour" ></p>
+                </div>
+                <!-- imageUrl -->
+                <div class="form-group">
+                    <input class="form-control" name="imageUrl" type="text" placeholder="image url" ></p>
+                </div>
+                <!-- para1Text-->
+                <div class="form-group">
+                  <textarea class="form-control" name="para1Text" placeholder="paragraph 1 text" rows="4"></textarea>
+                    <!-- <input class="form-control" name="para1Text" type="textarea" placeholder="paragraph 1 text" ></p> -->
+                </div>
+                <!-- para2Text -->
+                <div class="form-group">
+                  <textarea class="form-control" name="para2Text" placeholder="paragraph 2 text" rows="4"></textarea>
+                <!--    <input class="form-control" name="para2Text" type="textarea" placeholder="paragraph 2 text" ></p> -->
+                </div>
+                <!-- cta -->
+                <div class="form-group">
+                    <input class="form-control" name="cta" type="text" placeholder="call to action" ></p>
+                </div>
+                <!-- ctaColour -->
+                <div class="form-group">
+                    <input class="form-control" name="ctaColour" type="text" placeholder="cta text colour" ></p>
+                </div>
+                <!-- copyWrite -->
+                <div class="form-group">
+                    <input class="form-control" name="copyWrite" type="text" placeholder="copywrite company name" ></p>
+                </div>
 
 
 <div class="col-lg-12 text-center">
                   <div id="success"></div>
                   <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Generate!</button>
                 </div>
+</div></div>
+   <br><br>
+<div class="bd-pageheader">
+      <div class="container">
 
-   
+  <h1>CREDITS</h1>
+  <p class="lead">
+    Tool created by Voltron Ventures<br>Landing Page Template Created By: Jenna Molby | www.jennamolby.com
+  </p>
+
+
+
+      </div>
+    </div>
+
+
 
 <script src="./Code · Bootstrap_files/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>')</script>
