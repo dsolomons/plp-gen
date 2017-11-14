@@ -360,7 +360,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code
         &lt;/div&gt;
         &lt;div class=&quot;col-md-4 form-container&quot;&gt;
           &lt;div class=&quot;form-header text-center&quot; pardot-region=&quot;form-header&quot;&gt;
-            &lt;h3&gt;<?php  echo $formHead;?>k&lt;/h3&gt;
+            &lt;h3&gt;<?php  echo $formHead;?>&lt;/h3&gt;
           &lt;/div&gt;
             %%Content%%
         &lt;/div&gt;
