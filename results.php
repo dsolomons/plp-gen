@@ -50,7 +50,7 @@
      <div class="row">
       
   <div class="col-md-12">         
-  <button class="btn btn-primary btn-xl text-uppercase" type="button">Create New</button>
+  <button class="btn btn-primary btn-xl text-uppercase" type="button" href="https://plp-gen.herokuapp.com/">Create New</button>
 </div>
 
 
