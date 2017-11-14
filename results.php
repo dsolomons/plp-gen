@@ -74,6 +74,7 @@ $para2Text = $_POST['para2Text'];
 $cta = $_POST['cta'];
 $ctaColour = $_POST['ctaColour'];    
 $copyWrite = $_POST['copyWrite'];  
+ 
 ?>
 
 
@@ -200,7 +201,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code
       }
       /* Background of the submit button */
       form.form input[type=submit] {
-        background-color:#2CA4BF;
+        background-color:#<?php  echo $formHeadBgColour;?>;
         border:0;
         color:#FFF;
         font-size:15px;

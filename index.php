@@ -70,22 +70,12 @@
                 <div class="form-group">
                     <input class="form-control" name="head2Colour" type="text" placeholder="head 2 colour" ></p>
                 </div>
-                <!-- formHead -->
-                <div class="form-group">
-                    <input class="form-control" name="formHead" type="text" placeholder="form head text" ></p>
-                </div>
-                <!-- formHeadColour -->
-                <div class="form-group">
-                    <input class="form-control" name="formHeadColour" type="text" placeholder="form head text colour" ></p>
-                </div>
-                <!-- formHeadBgColour -->
-                <div class="form-group">
-                    <input class="form-control" name="formHeadBgColour" type="text" placeholder="form head bg colour" ></p>
-                </div>
-                <!-- imageUrl -->
+                 <!-- imageUrl -->
                 <div class="form-group">
                     <input class="form-control" name="imageUrl" type="text" placeholder="image url" ></p>
                 </div>
+                
+               
                 <!-- para1Text-->
                 <div class="form-group">
                   <textarea class="form-control" name="para1Text" placeholder="paragraph 1 text" rows="4"></textarea>
@@ -104,6 +94,19 @@
                 <div class="form-group">
                     <input class="form-control" name="ctaColour" type="text" placeholder="cta text colour" ></p>
                 </div>
+                <!-- formHead -->
+                <div class="form-group">
+                    <input class="form-control" name="formHead" type="text" placeholder="form head text" ></p>
+                </div>
+                <!-- formHeadColour -->
+                <div class="form-group">
+                    <input class="form-control" name="formHeadColour" type="text" placeholder="form head text colour" ></p>
+                </div>
+                <!-- formHeadBgColour -->
+                <div class="form-group">
+                    <input class="form-control" name="formHeadBgColour" type="text" placeholder="form head bg colour" ></p>
+                </div>
+               
                 <!-- copyWrite -->
                 <div class="form-group">
                     <input class="form-control" name="copyWrite" type="text" placeholder="copywrite company name" ></p>
