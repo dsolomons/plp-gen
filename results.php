@@ -355,7 +355,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the code
             &lt;li&gt;Ut tempor consequat tortor, ac dapibus erat mollis quis.&lt;/li&gt;
             &lt;li&gt;Nam a consectetur arcu.&lt;/li&gt;
           &lt;/ul&gt; --&gt;
-          &lt;h2&gt;<?php  echo $cta;?>&lt;/h2&gt;
+          &lt;h4&gt;<?php  echo $cta;?>&lt;/h4&gt;
           &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;col-md-4 form-container&quot;&gt;
