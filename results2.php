@@ -122,6 +122,12 @@ $ecta = $_POST['ecta'];
 $ctaColour = $_POST['ctaColour'];    
 $copyWrite = $_POST['copyWrite'];  
 
+
+$fp = fopen("formdata.txt", "a");
+$savestring = "Both: " . $copyWrite . "  ||  " . $head1 . "  ||  " . $logo . "  ||  " . $imageUrl . "\n";
+fwrite($fp, $savestring);
+fclose($fp);
+
 ?>
 
 
