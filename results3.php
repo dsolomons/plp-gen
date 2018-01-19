@@ -122,7 +122,7 @@ $ecta = $_POST['ecta'];
 $ctaColour = $_POST['ctaColour'];    
 $copyWrite = $_POST['copyWrite'];  
 
-$fp = fopen("formdata.txt", "a");
+$fp = fopen("http://kemsoft.davidsolomons.xyz/hosted/formdata.txt", "a");
 $savestring = "Email:  " . $copyWrite . "  ||  " . $head1 . "  ||  " . $logo . "  ||  " . $imageUrl . "\n";
 fwrite($fp, $savestring);
 fclose($fp);
