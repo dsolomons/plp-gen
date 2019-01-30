@@ -147,7 +147,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
                         <table border="0" cellpadding="0" cellspacing="0">
                           <tbody>
                             <tr>
-                              <td align="center" bgcolor="#<?php echo $edmformHeadBgColour ?>" pardot-data="" style="border-radius: 26px; background:<?php echo $edmformHeadBgColour ?>;" class=""><a href="https://pardot.com" style="font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $edmformHeadBgColour ?>; padding: 14px 26px; border: 1px solid <?php echo $edmformHeadBgColour ?>; display: block;" target="_blank"><?php  echo $ecta;?></a></td>
+                              <td align="center" bgcolor="#<?php echo $ctaColour ?>" pardot-data="" style="border-radius: 26px; background:<?php echo $ctaColour ?>;" class=""><a href="https://pardot.com" style="font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $ctaColour ?>; padding: 14px 26px; border: 1px solid <?php echo $ctaColour ?>; display: block;" target="_blank"><?php  echo $ecta;?></a></td>
                             </tr>
                           </tbody>
                         </table>
