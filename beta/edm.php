@@ -158,6 +158,7 @@
                 <div class="form-group">
                 	<h3>Button</h3>
                     <input class="form-control" name="ecta" type="text" placeholder="email call to action text EG Click to download..." ></p>
+                    <input class="form-control" name="ectac" type="text" placeholder="email cta button colour" ></p>
                 </div>
                    <!-- formHeadBgColour 
                 <div class="form-group">

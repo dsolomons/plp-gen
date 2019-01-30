@@ -93,7 +93,7 @@
 			<aside id="fh5co-hero" class="js-fullheight">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/rocket.png);">
+				   	<!-- <li style="background-image: url(images/rocket.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -106,7 +106,7 @@
 					   			</div>
 					   		</div>
 				   		</div>
-				   	</li>
+				   	</li> --> 
 				   	<li style="background-image: url(images/astro.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">

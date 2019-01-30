@@ -139,8 +139,9 @@ $para2Text = $_POST['para2Text'];
 $cta = $_POST['cta'];
 $ecta = $_POST['ecta'];
 $ctaColour = "#ffffff"; 
-/* $ctaColour = $_POST['ctaColour']; */    
+$ctaColour = $_POST['ctaColour'];    
 $copyWrite = $_POST['copyWrite'];  
+
 /*
 $fp = fopen("http://kemsoft.davidsolomons.xyz/hosted/formdata.txt", "a");
 $savestring = "Email:  " . $copyWrite . "  ||  " . $head1 . "  ||  " . $logo . "  ||  " . $imageUrl . "\n";
@@ -304,7 +305,7 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
                         &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
                           &lt;tbody&gt;
                             &lt;tr&gt;
-                              &lt;td align=&quot;center&quot; bgcolor=&quot;<?php echo $edmformHeadBgColour ?>&quot; pardot-data=&quot;&quot; style=&quot;border-radius: 26px; background:<?php echo $edmformHeadBgColour ?>;&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $edmformHeadBgColour ?>; padding: 14px 26px; border: 1px solid <?php echo $edmformHeadBgColour ?>; display: block;&quot; target=&quot;_blank&quot;&gt;<?php  echo $ecta;?>&lt;/a&gt;&lt;/td&gt;
+                              &lt;td align=&quot;center&quot; bgcolor=&quot;<?php echo $ctaColour ?>&quot; pardot-data=&quot;&quot; style=&quot;border-radius: 26px; background:<?php echo $ctaColour ?>;&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $ctaColour ?>; padding: 14px 26px; border: 1px solid <?php echo $ctaColour ?>; display: block;&quot; target=&quot;_blank&quot;&gt;<?php  echo $ecta;?>&lt;/a&gt;&lt;/td&gt;
                             &lt;/tr&gt;
                           &lt;/tbody&gt;
                         &lt;/table&gt;
