@@ -138,7 +138,7 @@ $para1Text = $_POST['para1Text'];
 $para2Text = $_POST['para2Text'];   
 $cta = $_POST['cta'];
 $ecta = $_POST['ecta'];
-$ctaColour = "#ffffff"; 
+/* $ctaColour = "#ffffff"; */
 $ctaColour = $_POST['ctaColour'];    
 $copyWrite = $_POST['copyWrite'];  
 
