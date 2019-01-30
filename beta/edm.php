@@ -111,6 +111,8 @@
 						
 					
 					<p><a href="https://jennamolby.com/Pardot-Templates/Event-Template-2/pardot-template.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
+												<form action="results3.php" method="post">
+<input type="hidden" name="tab" value="1">
 							<div class="form-group"><br>
 								<h3>Header</h3>
                     <input class="form-control" name="logo" type="text" placeholder="brand logo url" ></p>
@@ -141,7 +143,7 @@
                
                 <!-- para1Text-->
                 <div class="form-group">
-                	<h3>Header</h3>
+                	<h3>Content</h3>
                   <textarea class="form-control" name="para1Text" placeholder="paragraph 1 text" rows="4"></textarea>
                     <!-- <input class="form-control" name="para1Text" type="textarea" placeholder="paragraph 1 text" ></p> -->
                 </div>
@@ -158,7 +160,7 @@
                 <div class="form-group">
                 	<h3>Button</h3>
                     <input class="form-control" name="ecta" type="text" placeholder="email call to action text EG Click to download..." ></p>
-                    <input class="form-control" name="ectac" type="text" placeholder="email cta button colour" ></p>
+                    <input class="form-control" name="ctaColour" type="text" placeholder="email cta button colour" ></p>
                 </div>
                    <!-- formHeadBgColour 
                 <div class="form-group">
