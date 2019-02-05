@@ -161,7 +161,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 					<h3>Some title</h3> 
 					<h2 class="fh5co-heading animate-box" >Complete the fields below and submit to generate your custom landing page.</h2> -->
 					
-<a href="https://jennamolby.com/Pardot-Templates/Event-Template-2/pardot-template.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
+<a href="http://www2.lenoxsoft.com/l/686293/2019-02-04/2cyjvq" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
 
 
 					</p>

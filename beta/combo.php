@@ -108,33 +108,46 @@
 						
 					</div>
 					<div class="col-md-10">
+						<p><a href="http://www2.lenoxsoft.com/l/686293/2019-02-04/2cyjvq" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
+						<br>
+						<a href="https://jennamolby.com/Pardot-Templates/Event-Template-2/pardot-template.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
 						
+					<!--	
 					<h3>Some title</h3>
+					
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. <br>
-					Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
 							<form action="results3.php" method="post">
 <input type="hidden" name="tab" value="3">
 <br>
 <!-- Logo URL -->
                 <div class="form-group">
+                	<h3>Header</h3>
                     <input class="form-control" name="logo" type="text" placeholder="logo url" ></p>
                 </div>
+                <!-- header bg colour  -->
+                <div class="form-group">
+                <input class="form-control" name="head2Colour" type="text" placeholder="header bg colour" >
+                </div> 
+
                 <!-- head1  -->
                 <div class="form-group">
-                <input class="form-control" name="head1" type="text" placeholder="head 1 text" ></p>
+                <input class="form-control" name="head1" type="text" placeholder="headline text" ></p>
                 </div>
                 <!-- head1Colour -->
                 <div class="form-group">
-                <input class="form-control" name="head1Colour" type="text" label="123" placeholder="head 1 colour" ></p>
+                <input class="form-control" name="head1Colour" type="text" label="123" placeholder="headline text colour" ></p>
                 </div>
-                <!-- head2 -->
+                
+				
+                <!-- head2 
                 <div class="form-group">
                     <input class="form-control" name="head2" type="text" placeholder="head 2 text" ></p>
-                </div>
-                <!-- head2Colour -->
+                </div> --> 
+                <!-- head2Colour 
                 <div class="form-group">
-                    <input class="form-control" name="head2Colour" type="text" placeholder="head 2 colour" ></p>
-                </div>
+                    <input class="form-control" name="head2Colour" type="text" placeholder="head 2 colour" ></p> 
+                </div> -->
                  <!-- imageUrl -->
                 <div class="form-group">
                     <input class="form-control" name="imageUrl" type="text" placeholder="image url" ></p>
@@ -143,6 +156,7 @@
                
                 <!-- para1Text-->
                 <div class="form-group">
+                	<h3>Content</h3>
                   <textarea class="form-control" name="para1Text" placeholder="paragraph 1 text" rows="4"></textarea>
                     <!-- <input class="form-control" name="para1Text" type="textarea" placeholder="paragraph 1 text" ></p> -->
                 </div>
@@ -151,14 +165,21 @@
                   <textarea class="form-control" name="para2Text" placeholder="paragraph 2 text" rows="4"></textarea>
                 <!--    <input class="form-control" name="para2Text" type="textarea" placeholder="paragraph 2 text" ></p> -->
                 </div>
-                <!-- cta -->
+                <!-- copyWrite -->
                 <div class="form-group">
-                    <input class="form-control" name="cta" type="text" placeholder="lp call to action text EG. Submit the form and we will send you..." ></p>
+                    <input class="form-control" name="copyWrite" type="text" placeholder="copyright company name *REQUIRED*" required="true"></p>
                 </div>
+                <!-- cta 
+                <div class="form-group">
+                	
+                    <input class="form-control" name="cta" type="text" placeholder="lp call to action text EG. Submit the form and we will send you..." ></p>
+                </div> -->
                  <!-- ecta -->
                 <div class="form-group">
+                	<h3>Form + Button</h3>
                     <input class="form-control" name="ecta" type="text" placeholder="email call to action text EG Click to download..." ></p>
                 </div>
+                
                 <!-- ctaColour -->
                 <div class="form-group">
                     <input class="form-control" name="ctaColour" type="text" placeholder="cta text colour" ></p>
@@ -168,23 +189,20 @@
                 <div class="form-group">
                     <input class="form-control" name="formHead" type="text" placeholder="form head text" ></p>
                 </div>
-                <!-- formHeadColour -->
+                <!-- formHeadColour
                 <div class="form-group">
                     <input class="form-control" name="formHeadColour" type="text" placeholder="form head text colour" ></p>
-                </div>
+                </div>  -->
                 <!-- formHeadBgColour -->
                 <div class="form-group">
                     <input class="form-control" name="formHeadBgColour" type="text" placeholder="form head bg colour" ></p>
                 </div>
-               <!-- EDM formHeadBgColour -->
+               <!-- EDM formHeadBgColour 
                 <div class="form-group">
                     <input class="form-control" name="edmformHeadBgColour" type="text" placeholder="edm header bg + edm cta button colour" ></p>
-                </div>
-
-                <!-- copyWrite -->
-                <div class="form-group">
-                    <input class="form-control" name="copyWrite" type="text" placeholder="copyright company name *REQUIRED*" required="true"></p>
-                </div>
+                </div> -->
+ 
+                
 
 <div class="col-lg-12 text-center">
 <div id="success"></div>

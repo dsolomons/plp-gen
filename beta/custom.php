@@ -110,15 +110,15 @@
 					</div>
 					<div class="col-md-5 col-padding animate-box" data-animate-effect="fadeInLeft">
 						<div class="blog-entry">
-							<a href="#" class="blog-img"><img src="https://s3-us-west-2.amazonaws.com/rd-industry-assets/cloudpages-industry-logos/retail-nto-logo.png" style="max-height: 80px; text-align:center" class="img-responsive"></a> 
+							<a href="#" class="blog-img"><img src="" style="max-height: 80px; text-align:center" class="img-responsive"></a> 
 							<!-- <h1>Custom Landing Page</h1> -->
 							<div class="desc">
-								<h3><a href="#">Custom Landing Page</a></h3>
+								<h3><a href="#">Craft your own landing page and or email with the simple build process. Select the item to build from the button below or from the side menu.</a></h3>
 								<span><small></small></span>
-								<p>Design must be functional and functionality must be translated into visual aesthetics</p>
+								<p></p>
 								<table style="width:100%; text-align: center;">
 
-								<a>  <tr><th><a href="#" class="btn btn-primary">Build</a></th><th><a href="#" class="lead">Customise <i class="icon-arrow-right3"></i></a></th></tr></table> </a>
+								<a>  <tr><th><a href="landing.php" class="btn btn-primary">Landing Page</a></th><th><a href="edm.php" class="btn btn-primary">Email</a></th><th><a href="combo.php" class="btn btn-primary">Both</a></th></tr></table> </a>
 							</div>
 						</div>
 					</div>
@@ -130,64 +130,7 @@
 					</div>
 				</div>
 			
-			<div class="row row-bottom-padded-md">
-					
-					<div class="col-md-1 col-padding animate-box" data-animate-effect="fadeInLeft">
-						<div class="blog-entry">
-							
-						</div> 
-					</div>
-					<div class="col-md-5 col-padding animate-box" data-animate-effect="fadeInLeft">
-						<div class="blog-entry">
-							<a href="#" class="blog-img"><img src="https://s3-us-west-2.amazonaws.com/rd-industry-assets/cloudpages-industry-logos/hls-makana-logo.png" style="max-height: 80px; text-align:center" class="img-responsive"></a>
-							<div class="desc">
-								<h3><a href="#">Custom Email</a></h3>
-								<span><small></small></span>
-								<p>Design must be functional and functionality must be translated into visual aesthetics</p>
-								<table style="width:100%; text-align: center;">
-
-								<a>  <tr><th><a href="#" class="btn btn-primary">Build</a></th><th><a href="#" class="lead">Customise <i class="icon-arrow-right3"></i></a></th></tr></table> </a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-padding animate-box" data-animate-effect="fadeInLeft">
-						<div class="blog-entry">
-							
-						</div>
-					</div>
-				</div>
-
-				<!-- dont exist yet start -->
-				
-				<!-- dont exist yet start -->
-				<div class="row row-bottom-padded-md">
-					
-					<div class="col-md-1 col-padding animate-box" data-animate-effect="fadeInLeft">
-						<div class="blog-entry">
-							
-						</div> 
-					</div>
-					<div class="col-md-5 col-padding animate-box" data-animate-effect="fadeInLeft">
-						<div class="blog-entry">
-							<a href="#" class="blog-img"><img src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 80px; text-align:center" class="img-responsive"></a>
-							<div class="desc">
-								<h3><a href="#">Custom Landing Page + Email</a></h3>
-								<span><small></small></span>
-								<p>Design must be functional and functionality must be translated into visual aesthetics</p>
-								<table style="width:100%; text-align: center;">
-
-								<a>  <tr><th><a href="#" class="btn btn-primary">Build</a></th><th><a href="#" class="lead">Customise <i class="icon-arrow-right3"></i></a></th></tr></table> </a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-padding animate-box" data-animate-effect="fadeInLeft">
-						<div class="blog-entry">
-							
-						</div>
-					</div>
-				</div>
+			
 				
 
 				<!-- dont exist yet end -->
