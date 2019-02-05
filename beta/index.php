@@ -76,8 +76,8 @@
 					<li><a href="edm.php">*Email*</a></li>
 					<li><a href="combo.php">*Both*</a></li>
 					<li>.</li>					
-					<li class="fh5co-active"><a href="index.html" target="_blank">How To Use</a></li>
-					<li class="fh5co-active"><a href="index.html" target="_blank">Help</a></li>
+					<li class="fh5co-active"><a href="howto.php" target="_blank">How To Use</a></li>
+					<li class="fh5co-active"><a href="howto.php" target="_blank">Help</a></li>
 				</ul>
 
 			</nav>
@@ -93,7 +93,7 @@
 			<aside id="fh5co-hero" class="js-fullheight">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<!-- <li style="background-image: url(images/rocket.png);">
+				   	<li style="background-image: url(images/rocket.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -106,7 +106,7 @@
 					   			</div>
 					   		</div>
 				   		</div>
-				   	</li> --> 
+				   	</li>
 				   	<li style="background-image: url(images/astro.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
