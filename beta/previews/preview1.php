@@ -17,6 +17,16 @@ $head1Colour = "#ffffff";
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119753873-1');
+</script>
   <!-- Template Created By: Jenna Molby | www.jennamolby.com | Support: pardot@jennamolby.com -->
   <!-- Template Modified by DSolomons | dsolomons@salesforce.com | Voltron Ventures -->
   <meta charset="utf-8">
