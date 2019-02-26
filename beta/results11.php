@@ -4,6 +4,8 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!-- THIS PAGE IS BADLY NAMED - THIS IS THE LANDING PAGE CODE RESULTS -->
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -61,16 +63,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119753873-1');
-</script>
-
 	</head>
 	<body>
 	<div id="fh5co-page">
@@ -80,30 +72,22 @@
 			<h1 id="fh5co-logo"><a href="index.php">Pardot<br>Code-Gen</a></h1>
       <nav id="fh5co-main-menu" role="navigation">
         <ul>
-<!--          <li class="fh5co-active"><a href="industry.php">Industry Pages</a></li> -->    
-          <li class="fh5co-active"><a href="custom.php">Build Custom</a></li>
+          <li><a>Build A Custom</a></li>
           <li><a href="landing.php">*Landing Page*</a></li>
           <li><a href="edm.php">*Email*</a></li>
           <li><a href="combo.php">*Both*</a></li>
           <li>.</li>          
-          <li class="fh5co-active"><a href="index.html" target="_blank">How To Use</a></li>
-          <li class="fh5co-active"><a href="index.html" target="_blank">Help</a></li>
+          <li><a href="howto.php" target="_blank">How To Use</a></li>
+          <li><a href="help.php" target="_blank">Help</a></li>
         </ul>
       </nav>
 
       <div class="fh5co-footer">
-      <!--  <p><small>&copy; 2018 <a href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank">Voltron Ventures.</a></span>  <span>Take it to Chatter: <a href="https://org62.lightning.force.com/lightning/r/CollaborationGroup/0F90M0000009ZcrSAE/view" target="_blank">Pardot Code Generator</a></span> <br> 
-          --> <span>   <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>  </span>
+    <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>  </span>
 
 
 
-				</small></p>
-				<ul>
-					<!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-instagram"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-linkedin2"></i></a></li> -->
-				</ul>
+	
 			</div>
 
 		</aside>
@@ -122,8 +106,8 @@
 					<h3>Your <b>Landing Page</b> code is here!</h3>
 					<p>To <b>EDIT</b> these values, click the "back" button in your browser. <br>To start over and <b>CREATE NEW CODE</b>, click the Pardot Code-Gen icon in the top left of this page.<br>
 					</p>
-						<div class="bd-example" data-example-id="">
-Click the word <code class="highlighter-rouge">&lt;COPY&gt;</code> that is at the top of the box below to copy the <b>Landing Page</b> code to the pasteboard. Then head to Pardot and paste it into your Landing Page template! </div>	
+					<!--	<div class="bd-example" data-example-id="">
+Click the word <code class="highlighter-rouge">&lt;COPY&gt;</code> that is at the top of the box below to copy the <b>Landing Page</b> code to the pasteboard. Then head to Pardot and paste it into your Landing Page template! </div>	-->
 
 
 <div class="container-fluid">
@@ -160,11 +144,7 @@ $head1Colour = "#ffffff";
 /* $ecta = $_POST['ecta']; */
 /* $ctaColour = $_POST['ctaColour'];    */
 /* 
-$fp = fopen("formdata.txt", "a");
-$savestring = "Landing Page:  " . $copyWrite . "  ||  " . $head1 . "  ||  " . $logo . "  ||  " . $imageUrl . "\n";
-fwrite($fp, $savestring);
-fclose($fp);
- */ -->
+ -->
 
 
 <br>
@@ -185,11 +165,13 @@ fclose($fp);
 <!-- fields that got cut or changed to manual -->
 <!-- they got deleted... -->
 
-<button id="sendMessageButton1" class="btn btn-primary btn-xl text-uppercase" type="submit">Preview Landing Page</button><p></p>
+<button id="sendMessageButton1" class="btn btn-primary btn-xl text-uppercase" type="submit">Preview Your Landing Page</button><p></p>
+<div class="bd-example" data-example-id="">
+Once you have Previewed your landing page, click <code class="highlighter-rouge">&lt;COPY LP CODE&gt;</code> below to copy the <b>Landing Page</b> code to the pasteboard.</div>
+<br>
+<button id="copyLPcode" class="btn btn-primary btn-xl text-uppercase" data-clipboard-target="#lpContent" type="button">Copy LP Code</button><p></p>
 
-<pre><code><!-- put the exited code here --><div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard"></span></div><div class="highlight">
-
-
+<pre><code><div class="highlight" id="lpContent">
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -658,23 +640,34 @@ font-family: &apos;Open Sans&apos;, sans-serif;
   <script src="previews/Bootstrap_files/anchor.min.js"></script>
   <script src="previews/Bootstrap_files/clipboard.min.js"></script>
   <script src="previews/Bootstrap_files/holder.min.js"></script>
-  <script src="previews/Bootstrap_files/application.js"></script>
+<!--  <script src="previews/Bootstrap_files/application.js"></script> -->
 
-
-	<!-- jQuery -->
-	<script src="previews/js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="previews/js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="previews/js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="previews/js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="previews/js/jquery.flexslider-min.js"></script>
 	
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+
+<script type="text/javascript">
+  
+  var clipboard = new ClipboardJS('#copyLPcode');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+    $("#copyLPcode").text("Code Copied!");
+    setTimeout(function () {$("#copyLPcode").text("Copy LP Code");},2000);
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
+
+
+
+</script>
 
 	</body>
 </html>

@@ -110,7 +110,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -129,30 +129,22 @@ body {font-family: Arial, Helvetica, sans-serif;}
 			<h1 id="fh5co-logo"><a href="index.php">Pardot<br>Code-Gen</a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<!-- <li class="fh5co-active"><a href="industry.php">Industry Pages</a></li>	 -->		
-					<li class="fh5co-active"><a href="custom.php">Build A Custom</a></li>
+					<li><a>Build A Custom</a></li>
 					<li><a href="landing.php">*Landing Page*</a></li>
 					<li><a href="edm.php">*Email*</a></li>
 					<li><a href="combo.php">*Both*</a></li>
 					<li>.</li>					
-					<li class="fh5co-active"><a href="index.html" target="_blank">How To Use</a></li>
-					<li class="fh5co-active"><a href="index.html" target="_blank">Help</a></li>
+					<li class="fh5co-active"><a href="howto.php" target="_blank">How To Use</a></li>
+					<li><a href="help.php" target="_blank">Help</a></li>
 				</ul>
 			</nav>
 
 			<div class="fh5co-footer">
-			<!--	<p><small>&copy; 2018 <a href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank">Voltron Ventures.</a></span>  <span>Take it to Chatter: <a href="https://org62.lightning.force.com/lightning/r/CollaborationGroup/0F90M0000009ZcrSAE/view" target="_blank">Pardot Code Generator</a></span> <br> 
-					--> <span>	 <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>	</span>
+		<span>	 <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>	</span>
 
 
 
-				</small></p>
-				<ul>
-					<!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-instagram"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-linkedin2"></i></a></li> -->
-				</ul>
+				
 			</div>
 
 		</aside>
@@ -212,35 +204,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
 	
-	<!-- Here -->
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-<!-- Here -->
 
 
 	

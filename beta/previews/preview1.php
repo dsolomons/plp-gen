@@ -18,15 +18,8 @@ $head1Colour = "#ffffff";
 <html lang="en">
 <head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- THIS PAGE IS BADLY NAMED - THIS IS THE LANDING PAGE PREVIEW -->
 
-  gtag('config', 'UA-119753873-1');
-</script>
   <!-- Template Created By: Jenna Molby | www.jennamolby.com | Support: pardot@jennamolby.com -->
   <!-- Template Modified by DSolomons | dsolomons@salesforce.com | Voltron Ventures -->
   <meta charset="utf-8">
@@ -392,6 +385,17 @@ font-family: 'Open Sans', sans-serif;
   padding-top:20px;
 }
   </style>
+
+<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119753873-1');
+</script>
+
 </head>
 <body>
   <div class="header">

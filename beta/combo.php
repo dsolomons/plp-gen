@@ -59,7 +59,10 @@
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
-	<![endif]--><!-- Global site tag (gtag.js) - Google Analytics -->
+	<![endif]-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -78,30 +81,23 @@
 			<h1 id="fh5co-logo"><a href="index.php">Pardot<br>Code-Gen</a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="industry.php">Industry Pages</a></li>			
-					<li class="fh5co-active"><a href="custom.php">Build Custom</a></li>
+					<li><a>Build A Custom</a></li>
 					<li><a href="landing.php">*Landing Page*</a></li>
 					<li><a href="edm.php">*Email*</a></li>
-					<li><a href="combo.php">*Both*</a></li>
+					<li class="fh5co-active"><a href="combo.php">*Both*</a></li>
 					<li>.</li>					
-					<li class="fh5co-active"><a href="index.html" target="_blank">How To Use</a></li>
-					<li class="fh5co-active"><a href="index.html" target="_blank">Help</a></li>
+					<li><a href="howto.php" target="_blank">How To Use</a></li>
+					<li><a href="help.php" target="_blank">Help</a></li>
 				</ul>
 			</nav>
 
 			<div class="fh5co-footer">
-			<!--	<p><small>&copy; 2018 <a href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank">Voltron Ventures.</a></span>  <span>Take it to Chatter: <a href="https://org62.lightning.force.com/lightning/r/CollaborationGroup/0F90M0000009ZcrSAE/view" target="_blank">Pardot Code Generator</a></span> <br> 
-					--> <span>	 <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>	</span>
+			<span>	 <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>	</span>
 
 
 
-				</small></p>
-				<ul>
-					<!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-instagram"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-linkedin2"></i></a></li> -->
-				</ul>
+				
+			
 			</div>
 
 		</aside>
@@ -110,7 +106,7 @@
 			
 			
 			<div class="fh5co-narrow-content">
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Build A Custom Landing Page and Email</h2>
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Complete the fields below and submit, to generate your custom landing page and email.</h2>
 				<div class="row">
 					<div class="col-md-1">
 						
@@ -120,11 +116,7 @@
 						<br>
 						<a href="https://jennamolby.com/Pardot-Templates/Event-Template-2/pardot-template.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
 						
-					<!--	
-					<h3>Some title</h3>
 					
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. <br>
-					Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
 							<form action="results3.php" method="post">
 <input type="hidden" name="tab" value="3">
 <br>

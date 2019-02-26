@@ -61,16 +61,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119753873-1');
-</script>
-
 	</head>
 	<body>
 	<div id="fh5co-page">
@@ -80,21 +70,19 @@
 			<h1 id="fh5co-logo"><a href="index.php">Pardot<br>Code-Gen</a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<!-- <li class="fh5co-active"><a href="industry.php">Industry Pages</a></li>	-->		
-					<li class="fh5co-active"><a href="custom.php">Build Custom</a></li>
+					<li class="fh5co-active"><a>Build A Custom</a></li>
 					<li><a href="landing.php">*Landing Page*</a></li>
 					<li><a href="edm.php">*Email*</a></li>
 					<li><a href="combo.php">*Both*</a></li>
 					<li>.</li>					
-					<li class="fh5co-active"><a href="howto.php" target="_blank">How To Use</a></li>
-					<li class="fh5co-active"><a href="howto.php" target="_blank">Help</a></li>
+					<li><a href="howto.php" target="_blank">How To Use</a></li>
+					<li><a href="help.php" target="_blank">Help</a></li>
 				</ul>
 
 			</nav>
 
 			<div>
-			<!--	<p><small>&copy; 2018 <a href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank">Voltron Ventures.</a></span>  <span>Take it to Chatter: <a href="https://org62.lightning.force.com/lightning/r/CollaborationGroup/0F90M0000009ZcrSAE/view" target="_blank">Pardot Code Generator</a></span> <br> 
-					--> <span><br><br>	<p style="text-align:center;"> <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px;"/>	</p></span>
+		<span><br><br>	<p style="text-align:center;"> <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px;"/>	</p></span>
 </div>
 
 		</aside>
@@ -103,6 +91,7 @@
 			<aside id="fh5co-hero" class="js-fullheight">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
+						<!-- Taken out until industry pages exist
 				   	<li style="background-image: url(images/rocket.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
@@ -116,7 +105,7 @@
 					   			</div>
 					   		</div>
 				   		</div>
-				   	</li>
+				   	</li> -->
 				   	<li style="background-image: url(images/astro.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">

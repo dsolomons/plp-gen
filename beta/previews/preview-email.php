@@ -23,23 +23,16 @@ $copyWrite = $_POST['copyWrite'];
 <!-- THIS EMAIL WAS BUILT BY LITMUS http://litmus.com  -->
 <!--RELEASED UNDER THE MIT LICENSE https://opensource.org/licenses/MIT  -->
 <!-- Template Modified by DSolomons | Voltron Ventures  -->
+<!-- THIS PAGE IS BADLY NAMED - THIS IS THE EMAIL PREVIEW PAGE -->
 
 <!doctype html>
 <html>
 <head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119753873-1');
-</script>
-
 <title></title>
 <style type="text/css">
+
+
+
 /* CLIENT-SPECIFIC STYLES */
 body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
@@ -86,6 +79,17 @@ a[x-apple-data-detectors] {
 /* ANDROID CENTER FIX */
 div[style*="margin: 16px 0;"] { margin: 0 !important; }
 </style>
+
+<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119753873-1');
+</script>
+
 </head>
 <body style="margin: 0 !important; padding: 0; !important background-color: #ffffff;" bgcolor="#ffffff">
 <!-- HIDDEN PREHEADER TEXT -->

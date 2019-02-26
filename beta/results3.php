@@ -4,7 +4,10 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
+	
+  <!-- THIS PAGE IS BADLY NAMED - THIS IS THE EDM CODE RESULTS -->
+
+  <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>PLP Gen &mdash; Get Pardot on the brain</title>
@@ -61,7 +64,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -80,30 +83,22 @@
 			<h1 id="fh5co-logo"><a href="index.php">Pardot<br>Code-Gen</a></h1>
       <nav id="fh5co-main-menu" role="navigation">
         <ul>
-          <li class="fh5co-active"><a href="industry.php">Industry Pages</a></li>     
-        <!--  <li class="fh5co-active"><a href="custom.php">Build Custom</a></li> -->
+          <li><a>Build A Custom</a></li>
           <li><a href="landing.php">*Landing Page*</a></li>
           <li><a href="edm.php">*Email*</a></li>
           <li><a href="combo.php">*Both*</a></li>
           <li>.</li>          
-          <li class="fh5co-active"><a href="index.html" target="_blank">How To Use</a></li>
-          <li class="fh5co-active"><a href="index.html" target="_blank">Help</a></li>
+          <li><a href="howto.php" target="_blank">How To Use</a></li>
+          <li><a href="help.php" target="_blank">Help</a></li>
         </ul>
       </nav>
 
       <div class="fh5co-footer">
-      <!--  <p><small>&copy; 2018 <a href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank">Voltron Ventures.</a></span>  <span>Take it to Chatter: <a href="https://org62.lightning.force.com/lightning/r/CollaborationGroup/0F90M0000009ZcrSAE/view" target="_blank">Pardot Code Generator</a></span> <br> 
-          --> <span>   <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>  </span>
+   <span>   <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>  </span>
 
 
 
-				</small></p>
-				<ul>
-					<!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-instagram"></i></a></li> -->
-					<!-- <li><a href="#"><i class="icon-linkedin2"></i></a></li> -->
-				</ul>
+				
 			</div>
 
 		</aside>
@@ -184,15 +179,14 @@ fclose($fp);
 <input type="hidden" name="ecta" value="<?php echo htmlspecialchars($ecta); ?>" >
 <input type="hidden" name="ctaColour" value="<?php echo htmlspecialchars($ctaColour); ?>" >
 <input type="hidden" name="copyWrite" value="<?php echo htmlspecialchars($copyWrite); ?>" >
-<button id="sendMessageButton2" class="btn btn-primary btn-xl text-uppercase" formaction="previews/preview-email.php" type="submit">Preview Email</button><p></p>
+  <button id="sendMessageButton2" class="btn btn-primary btn-xl text-uppercase" formaction="previews/preview-email.php" type="submit">Preview Your Email</button><p></p>
 
 <div class="bd-example" data-example-id="">
-Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the <b>Email</b> code to the pasteboard.</div>
-<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard"></span></div><div class="highlight">
+Once you have Previewed your email, click <code class="highlighter-rouge">&lt;COPY EDM CODE&gt;</code> below to copy the <b>Email</b> code to the pasteboard.</div>
+<br>
+<button id="copyEDMcode" class="btn btn-primary btn-xl text-uppercase" data-clipboard-target="#edmContent" type="button">Copy EDM Code</button><p></p>
 
-<pre><code><!-- put the exited code here -->
-
-
+<pre><code><div class="highlight" id="edmContent">  
 &lt;!-- THIS EMAIL WAS BUILT BY LITMUS http://litmus.com --&gt;
 &lt;!-- RELEASED UNDER THE MIT LICENSE https://opensource.org/licenses/MIT --&gt;
 &lt;!-- Template Modified by DSolomons | dsolomons@salesforce.com | Voltron Ventures --&gt;
@@ -391,6 +385,28 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+
+<script type="text/javascript">
+  
+  var clipboard = new ClipboardJS('#copyEDMcode');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+    $("#copyEDMcode").text("Code Copied!");
+    setTimeout(function () {$("#copyEDMcode").text("Copy EDM Code");},2000);
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
+
+
+
+</script>
 
 	</body>
 </html>
