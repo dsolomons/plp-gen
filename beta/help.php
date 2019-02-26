@@ -163,7 +163,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 					<div class="col-md-10">
 						
 					<!-- <h3>Some title</h3> -->
-					<p>If you need to get in contact for any reason, please email directly at dsolomons@salesforce.com or take it to the internally chatter page: Pardot Code Generator. I'll do my best to respond quickly on any channel. 
+					<p>If you need to get in contact for any reason, please email directly at <b>dsolomons@salesforce.com</b> or take it to the internally chatter page: <b>Pardot Code Generator.</b> I'll do my best to respond quickly on any channel. 
 							<br><br>
 							Some reasons you might want to get in contact:
 							<ul>	
