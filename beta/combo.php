@@ -114,7 +114,7 @@
 					<div class="col-md-10">
 						<p><a href="http://www2.lenoxsoft.com/l/686293/2019-02-04/2cyjvq" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
 						<br>
-						<a href="https://jennamolby.com/Pardot-Templates/Event-Template-2/pardot-template.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
+						<a href="previews/email.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
 						
 					
 							<form action="results3.php" method="post">

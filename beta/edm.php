@@ -111,7 +111,7 @@
 					<div class="col-md-10">
 						
 					
-					<p><a href="https://jennamolby.com/Pardot-Templates/Event-Template-2/pardot-template.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
+					<p><a href="previews/email.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
 												<form action="results3.php" method="post">
 <input type="hidden" name="tab" value="1">
 							<div class="form-group"><br>
