@@ -1,38 +1,12 @@
-<?php
-$tab = $_POST['tab'];
-$logo = $_POST['logo'];
-$head1 = $_POST['head1'];
-$head1Colour = $_POST['head1Colour'];    
-$head2 = $_POST['head2'];
-$head2Colour = $_POST['head2Colour'];    
-$formHead = $_POST['formHead'];
-$formHeadColour = $_POST['formHeadColour'];
-$formHeadBgColour = $_POST['formHeadBgColour']; 
-$edmformHeadBgColour = $_POST['edmformHeadBgColour']; 
-$imageUrl = $_POST['imageUrl'];
-$para1Text = $_POST['para1Text'];    
-$para2Text = $_POST['para2Text'];   
-$cta = $_POST['cta'];
-$ecta = $_POST['ecta'];
-$ctaColour = $_POST['ctaColour'];    
-$copyWrite = $_POST['copyWrite'];  
-?>
-
-
-
-<!-- THIS EMAIL WAS BUILT BY LITMUS http://litmus.com  -->
-<!--RELEASED UNDER THE MIT LICENSE https://opensource.org/licenses/MIT  -->
-<!-- Template Modified by DSolomons | Voltron Ventures  -->
-<!-- THIS PAGE IS BADLY NAMED - THIS IS THE EMAIL PREVIEW PAGE -->
-
+  
+<!-- THIS EMAIL WAS BUILT BY LITMUS http://litmus.com -->
+<!-- RELEASED UNDER THE MIT LICENSE https://opensource.org/licenses/MIT -->
+<!-- Template Modified by DSolomons | dsolomons@salesforce.com | Voltron Ventures -->
 <!doctype html>
 <html>
 <head>
 <title></title>
 <style type="text/css">
-
-
-
 /* CLIENT-SPECIFIC STYLES */
 body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
@@ -79,26 +53,15 @@ a[x-apple-data-detectors] {
 /* ANDROID CENTER FIX */
 div[style*="margin: 16px 0;"] { margin: 0 !important; }
 </style>
-
-<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119753873-1');
-</script>
-
 </head>
-<body style="margin: 0 !important; padding: 0; !important background-color: #fff;" bgcolor="<?php echo $head2 ?>">
+<body style="margin: 0 !important; padding: 0; !important background-color: #ffffff;" bgcolor="#ffffff">
 <!-- HIDDEN PREHEADER TEXT -->
 <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Open Sans, Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Lorem ipsum dolor que ist</div>
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tbody>
     <tr>
-      <td align="center" background="bg.jpg" bgcolor="<?php echo $edmformHeadBgColour ?>" class="mobile-padding" style="background: <?php echo $edmformHeadBgColour ?> url('bg.jpg'); background-size: cover; padding: 50px 15px;" valign="top" width="100%"><!--[if (gte mso 9)|(IE)]>
+      <td align="center" background="bg.jpg" bgcolor="#22445f" class="mobile-padding" style="background: #22445f url('bg.jpg'); background-size: cover; padding: 50px 15px;" valign="top" width="100%"><!--[if (gte mso 9)|(IE)]>
             <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
             <tr>
             <td align="center" valign="top" width="600">
@@ -106,7 +69,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
       <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:600px;" width="100%">
         <tbody>
           <tr>
-            <td align="center" style="padding: 0 0 20px 0;" valign="top" class=""><img border="0" src="<?php  echo $logo;?>" style="display: block; width: 180px; border-width: 0px; border-style: solid;" width="180"></td>
+            <td align="center" style="padding: 0 0 20px 0;" valign="top" class=""><img border="0" src="https://www.pardot.com/content/themes/pardot/assets/images/pardot-logo-white.png" style="display: block; width: 180px;  border-width: 0px; border-style: solid;" width="180"></td>
           </tr>
           <tr>
             <td align="center" style="padding: 0; font-family: Open Sans, Helvetica, Arial, sans-serif;" valign="top" class=""></td>
@@ -132,27 +95,24 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
             <table border="0" cellpadding="0" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td align="center" bgcolor="#000000" pardot-data="" style="border-radius: 3px 3px 0px 0px; background: rgb(0, 0, 0);" class=""><img alt="insert alt text here" class="img-max" height="401" src="<?php  echo $imageUrl;?>" style="display: block; border-radius: 3px 3px 0px 0px; font-family: sans-serif; font-size: 16px; color: rgb(153, 153, 153); width: 600px; height: 401px;" width="600"></td>
+                  <td align="center" bgcolor="#000000" pardot-data="" style="border-radius: 3px 3px 0px 0px; background:#ffffff;" class=""><img alt="insert alt text here" class="img-max" height="401" src="https://www.pardot.com/wp-content/uploads/2019/01/B2BMarketingGuide.jpg" style="display: block; border-radius: 3px 3px 0px 0px; font-family: sans-serif; font-size: 16px; color: rgb(153, 153, 153); width: 600px; height: 401px;" width="600"></td>
                 </tr>
                 <tr>
                   <td align="center" bgcolor="#ffffff" style="border-radius: 0 0 3px 3px; padding: 25px;">
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tbody>
                       <tr>
-                        
-                          <td align="center" style="font-family: Open Sans, Helvetica, Arial, sans-serif;" class=""><h1 style="font-size: 40px; color: <?php echo $head1Colour ?>; margin: 0; padding-bottom: 10px;"><?php  echo $head1;?><br><br></h1>
-
+                        <td align="center" style="font-family: Open Sans, Helvetica, Arial, sans-serif;" class=""><h1 style="font-size: 40px; color: #22445f; margin: 0; padding-bottom: 10px;">B2B Marketing Automation&nbsp;<br></h1>
+                          
                         </td>
                       </tr>
-                                          <tr>
-                        <td align="center" style="font-family: Open Sans, Helvetica, Arial, sans-serif;" class=""><h2 style="font-size: 20px; color: #444444; margin: 0; padding-bottom: 10px;">Hi %%first_Name%%,&nbsp;<br></h2>
+                      <tr>
+                        <td align="center" style="font-family: Open Sans, Helvetica, Arial, sans-serif;" class=""><h2 style="font-size: 20px; color: #444444; margin: 0; padding-bottom: 10px;">Hi %%first_name%%,&nbsp;<br></h2>
 
 
-<p style="color: #999999; font-size: 16px; line-height: 24px; margin: 0;"><?php echo $para1Text ?><br>&nbsp;</p>
-<p style="color: #999999; font-size: 16px; line-height: 24px; margin: 0;"><?php echo $para2Text ?><br>&nbsp;</p>
-
-
-
+<p style="color: #999999; font-size: 16px; line-height: 24px; margin: 0;">Marketing automation is a software platform that helps you automate your marketing and sales engagement to generate more leads, close more deals, and accurately measure marketing success.<br>&nbsp;</p>
+<p style="color: #999999; font-size: 16px; line-height: 24px; margin: 0;">Marketing Automation Overview
+Different types of companies, from SMB to enterprise, have their own way of finding new leads, nurturing them, and turning them into customers. However, like most solutions in a company’s martech stack, marketing automation platforms aren’t one-size-fits-all, especially in B2B.<br>&nbsp;</p>
 
 
 </td>
@@ -162,7 +122,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
                         <table border="0" cellpadding="0" cellspacing="0">
                           <tbody>
                             <tr>
-                              <td align="center" bgcolor="#<?php echo $ctaColour ?>" pardot-data="" style="border-radius: 26px; background:<?php echo $ctaColour ?>;" class=""><a href="https://pardot.com" style="font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $ctaColour ?>; padding: 14px 26px; border: 1px solid <?php echo $ctaColour ?>; display: block;" target="_blank"><?php  echo $ecta;?></a></td>
+                              <td align="center" bgcolor="#22445f" pardot-data="" style="border-radius: 26px; background:#22445f;" class=""><a href="https://pardot.com" style="font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: #22445f; padding: 14px 26px; border: 1px solid #22445f; display: block;" target="_blank">Download Your Product Pack</a></td>
                             </tr>
                           </tbody>
                         </table>
@@ -177,7 +137,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
             </td>
           </tr>
           <tr>
-            <td align="center" bgcolor="ffffff" height="100%" style="padding: 0 15px 40px 15px;" valign="top" width="100%"><!--[if (gte mso 9)|(IE)]>
+            <td align="center" bgcolor="#ffffff" height="100%" style="padding: 0 15px 40px 15px;" valign="top" width="100%"><!--[if (gte mso 9)|(IE)]>
             <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
             <tr>
             <td align="center" valign="top" width="600">
@@ -185,10 +145,10 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
             <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:600px;" width="100%">
               <tbody>
                 <tr>
-                  <td align="center" style="padding: 0 0 5px 0;" valign="top" class=""><img border="0" src="<?php  echo $logo;?>" style="display: block; width: 180px; border-width: 0px; border-style: solid;" width="180"></td>
+                  <td align="center" style="padding: 0 0 5px 0;" valign="top" class=""><img border="0" src="https://www.pardot.com/content/themes/pardot/assets/images/pardot-logo-white.png" style="display: block; width: 180px; border-width: 0px; border-style: solid;" width="180"></td>
                 </tr>
                 <tr>
-                  <td align="center" style="padding: 0; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #999999;" valign="top" class="">2017 <?php  echo $copyWrite;?> All rights reserved.
+                  <td align="center" style="padding: 0; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #999999;" valign="top" class="">2017 Pardot By Voltron All rights reserved.
                   <p style="font-size: 14px; line-height: 20px;"><a href="https://pardot.com" style="color: #999999;" target="_blank">View Online</a> &nbsp; • &nbsp; %%unsubscribe%%</p>
                   </td>
                 </tr>
@@ -208,3 +168,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
 </table>
 </body>
 </html>
+                
+            
+            
+    

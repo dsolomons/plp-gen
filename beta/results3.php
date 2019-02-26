@@ -184,7 +184,7 @@ fclose($fp);
 <div class="bd-example" data-example-id="">
 Once you have Previewed your email, click <code class="highlighter-rouge">&lt;COPY EDM CODE&gt;</code> below to copy the <b>Email</b> code to the pasteboard.</div>
 <br>
-<button id="copyEDMcode" class="btn btn-primary btn-xl text-uppercase" data-clipboard-target="#edmContent" type="button">Copy EDM Code</button><p></p>
+<button id="copyEDMcode" class="btn btn-primary btn-xl text-uppercase" data-clipboard-target="#edmContent" type="button">Copy 1EDM Code</button><p></p>
 
 <pre><code><div class="highlight" id="edmContent">  
 &lt;!-- THIS EMAIL WAS BUILT BY LITMUS http://litmus.com --&gt;
@@ -249,7 +249,7 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
 &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td align=&quot;center&quot; background=&quot;bg.jpg&quot; bgcolor=&quot;<?php echo $edmformHeadBgColour ?>&quot; class=&quot;mobile-padding&quot; style=&quot;background: <?php echo $edmformHeadBgColour ?> url(&apos;bg.jpg&apos;); background-size: cover; padding: 50px 15px;&quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;&lt;!--[if (gte mso 9)|(IE)]&gt;
+      &lt;td align=&quot;center&quot; background=&quot;bg.jpg&quot; bgcolor=&quot;<?php echo $head2 ?>&quot; class=&quot;mobile-padding&quot; style=&quot;background: <?php echo $head2 ?> url(&apos;bg.jpg&apos;); background-size: cover; padding: 50px 15px;&quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;&lt;!--[if (gte mso 9)|(IE)]&gt;
             &lt;table align=&quot;center&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;600&quot;&gt;
             &lt;tr&gt;
             &lt;td align=&quot;center&quot; valign=&quot;top&quot; width=&quot;600&quot;&gt;
@@ -283,7 +283,7 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
             &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
               &lt;tbody&gt;
                 &lt;tr&gt;
-                  &lt;td align=&quot;center&quot; bgcolor=&quot;#ffffff&quot; pardot-data=&quot;&quot; style=&quot;border-radius: 3px 3px 0px 0px; background: rgb(255, 255, 255);&quot; class=&quot;&quot;&gt;&lt;img alt=&quot;insert alt text here&quot; class=&quot;img-max&quot; height=&quot;401&quot; src=&quot;<?php  echo $imageUrl;?>&quot; style=&quot;display: block; border-radius: 3px 3px 0px 0px; font-family: sans-serif; font-size: 16px; color: rgb(153, 153, 153); width: 600px; height: 401px;&quot; width=&quot;600&quot;&gt;&lt;/td&gt;
+                  &lt;td align=&quot;center&quot; bgcolor=&quot;#000000&quot; pardot-data=&quot;&quot; style=&quot;border-radius: 3px 3px 0px 0px; background:#ffffff;&quot; class=&quot;&quot;&gt;&lt;img alt=&quot;insert alt text here&quot; class=&quot;img-max&quot; height=&quot;401&quot; src=&quot;<?php  echo $imageUrl;?>&quot; style=&quot;display: block; border-radius: 3px 3px 0px 0px; font-family: sans-serif; font-size: 16px; color: rgb(153, 153, 153); width: 600px; height: 401px;&quot; width=&quot;600&quot;&gt;&lt;/td&gt;
                 &lt;/tr&gt;
                 &lt;tr&gt;
                   &lt;td align=&quot;center&quot; bgcolor=&quot;#ffffff&quot; style=&quot;border-radius: 0 0 3px 3px; padding: 25px;&quot;&gt;
