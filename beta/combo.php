@@ -112,7 +112,7 @@
 						
 					</div>
 					<div class="col-md-10">
-						<p><a href="http://www2.lenoxsoft.com/l/686293/2019-02-04/2cyjvq" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
+						<p><a href="http://www2.lenoxsoft.com/l/396142/2019-03-19/26cpt5" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
 						<br>
 						<a href="previews/email.html" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview EDM Template</a></p>
 						
