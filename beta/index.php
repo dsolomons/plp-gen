@@ -131,7 +131,7 @@ include("vpn.php");
 					   				<div class="slider-text-inner">
 					   					<h1>Experience Builder</h1>
 											<h2>Show don't tell. Build engaging stories quickly.</h2>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://innovations.space/experiencebuilder/" target="_blank">Experience Builder</a></p>
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://experiencebuilder.net" target="_blank">Experience Builder</a></p>
 					   				</div>
 					   			</div>
 					   		</div>
