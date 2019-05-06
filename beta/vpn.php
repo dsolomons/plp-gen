@@ -1,4 +1,6 @@
 <?php 
+
+
 $valid_ip_ranges = array(
     '61.120.150.128-61.120.150.151',
     '62.17.146.128-62.17.146.191',
@@ -21,6 +23,16 @@ $valid_ip_ranges = array(
     '192.168.1.1-192.168.1.1'
 );
 
+if (!function_exists('get_ip_address')) {
+    function get_ip_address() {
+        if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) and !empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            $ip = explode(', ', $_SERVER['HTTP_X_FORWARDED_FOR']);
+            return array_shift($ip);
+        } else {
+            return $_SERVER['REMOTE_ADDR'];
+        }
+    }
+}
 
 if (!function_exists('ipv4_in_range')) {
     // ipv4_in_range
