@@ -114,7 +114,7 @@
 					   				<div class="slider-text-inner">
 					   					<h1>Custom Builds<strong></strong></h1>
 					   					<h2>Craft custom content without coding <strong>ANNNDDD</strong> get it done in minutes not days!</h2>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="custom.php"></i>Go to Custom Builds</a></p>
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="landing.php"></i>Go to Custom Builds</a></p>
 					   				</div>
 					   			</div>
 					   		</div>
