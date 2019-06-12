@@ -1,9 +1,70 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-  <head>
+<!-- THIS PAGE IS BADLY NAMED - THIS IS THE COMBO CODE RESULTS -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PLP Gen &mdash; Get Pardot on the brain</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	-->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -13,104 +74,54 @@
   gtag('config', 'UA-119753873-1');
 </script>
 
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Pardot Landing Page Generator. Clicks not code (but some code, but Voltron made it easy, so that's ok...">
-    <meta name="author" content="">
+	</head>
+	<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-    <title>PCG - Pardot Code Gen</title>
+			<h1 id="fh5co-logo"><a href="index.php">Pardot<br>Code-Gen</a></h1>
+      <nav id="fh5co-main-menu" role="navigation">
+        <ul>
+          <li><a>Build A Custom</a></li>
+          <li><a href="landing.php">*Landing Page*</a></li>
+          <li><a href="edm.php">*Email*</a></li>
+          <li><a href="combo.php">*Both*</a></li>
+          <li>.</li>          
+          <li><a href="howto.php" target="_blank">How To Use</a></li>
+          <li><a href="help.php" target="_blank">Help</a></li>
+        </ul>
+      </nav>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-
-<!-- Favicons -->
-<link rel="apple-touch-icon" href="Assets/flav-p3.png">
-<link rel="icon" href="Assets/flav-p3.png">
+      <div class="fh5co-footer">
+    <span>   <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px"/>  </span>
 
 
-  </head>
 
-  <body id="page-top">
+			</div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="index.php">PCG</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="htu.html" target="_blank">How to use</a>
-            </li> 
-             <li class="nav-item">
-              <a class="nav-link"> | </a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="lpd.html" target="_blank">LandingPage Details</a>
-            </li> 
-             <li class="nav-item">
-              <a class="nav-link"> | </a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="edmd.html" target="_blank">Email Details</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"> | </a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="rap.html" target="_blank">Report a Problem</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+		</aside>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-<!--        <img class="img-fluid" src="img/profile.png" alt=""> -->
-        <div class="intro-text">
-          <span class="name">PCG</span>
-          <hr class="star-light">
-          <span class="skills">Your PCG Code</span>
-        </div>
-      </div>
-    </header>
-
+		<div id="fh5co-main">
+			
+			
+			<div class="fh5co-narrow-content">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Build A Custom Landing Page</h2>
+				<div class="row">
+					<div class="col-md-1">
+						
+					</div>
+					<div class="col-md-10">
+						
+					<h3>Your <b>Landing Page and Email</b> code is here!</h3>
+					<p>To <b>EDIT</b> these values, click the "back" button in your browser. <br>To start over and <b>CREATE NEW CODE</b>, click the Pardot Code-Gen icon in the top left of this page.<br>
+					</p>
+							
 
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-3">
-    </div>
-    <div class="col-md-6">
-
-        
-  <p></p>
-  
-  <p>To <b>EDIT</b> these values, click the "back" button in your browser. <br>To start over and <b>CREATE NEW CODE</b>, click the PCG icon in the top left of this page.</p>
-  <p></p>
-
-
+    <div class="col-md-12">
 
 
 <!-- start content here -->
@@ -125,7 +136,6 @@ $head2Colour = $_POST['head2Colour'];
 $formHead = $_POST['formHead'];
 $formHeadColour = $_POST['formHeadColour'];
 $formHeadBgColour = $_POST['formHeadBgColour']; 
-$edmformHeadBgColour = $_POST['edmformHeadBgColour']; 
 $imageUrl = $_POST['imageUrl'];
 $para1Text = $_POST['para1Text'];    
 $para2Text = $_POST['para2Text'];   
@@ -135,46 +145,14 @@ $ctaColour = $_POST['ctaColour'];
 $copyWrite = $_POST['copyWrite'];  
 
 
-$fp = fopen("formdata.txt", "a");
-$savestring = "Both: " . $copyWrite . "  ||  " . $head1 . "  ||  " . $logo . "  ||  " . $imageUrl . "\n";
-fwrite($fp, $savestring);
-fclose($fp);
-
 ?>
 
 
-
-<div class="im-centered">
-<div class="row">
-        <div class="col-md-12 col-xs-12 col-centered">
-        <div class="input-group">
-            
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Landing Page Code</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Email Code</a>
-  </li>
- </ul>
-
-
-        </div>
-    </div>
-</div>
-</div>
-
-
-
-<div class="container-fluid">
-<div class="row">
                 
-                <div class="col-md-12">
+               <div class="col-sm-6"> 
 
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 <br>
-<form id="form_b" action="previews/preview.php" method="post" target="_blank">
+<form id="form_b" action="previews/preview1.php" method="post" target="_blank">
 <!-- <input type="hidden" name="tab" value="1"> -->
 <input type="hidden" name="logo" value="<?php echo htmlspecialchars($logo); ?>" >
 <input type="hidden" name="head1" value="<?php echo htmlspecialchars($head1); ?>" >
@@ -190,19 +168,21 @@ fclose($fp);
 <input type="hidden" name="cta" value="<?php echo htmlspecialchars($cta); ?>" >
 <input type="hidden" name="ctaColour" value="<?php echo htmlspecialchars($ctaColour); ?>" >
 <input type="hidden" name="copyWrite" value="<?php echo htmlspecialchars($copyWrite); ?>" >
-<button id="sendMessageButton1" class="btn btn-primary btn-xl text-uppercase" type="submit">Preview Landing Page</button><p></p>
+
+
+<button id="sendMessageButton1" class="btn btn-primary btn-xl text-uppercase" type="submit">Preview Your Landing Page</button><p></p>
 
 <div class="bd-example" data-example-id="">
-Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the <b>Landing Page</b> code to the pasteboard.</div>
-<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard"></span></div><div class="highlight">
+Once you have Previewed your landing page, click <code class="highlighter-rouge">&lt;COPY LP CODE&gt;</code> below to copy the <b>Landing Page</b> code to the pasteboard.</div>
+<br>
+<button id="copyLPcode" class="btn btn-primary btn-xl text-uppercase" data-clipboard-target="#lpContent" type="button">Copy LP Code</button><p></p>
 
-<pre><code><!-- put the exited code here -->
-
+<pre><code><div class="highlight" id="lpContent">
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;!-- Template Created By: Jenna Molby | www.jennamolby.com | Support: pardot@jennamolby.com --&gt;
-  &lt;!-- Template Modified by DSolomons | Voltron Ventures --&gt;
+  &lt;!-- Template Modified by DSolomons | dsolomons@salesforce.com | Voltron Ventures --&gt;
   &lt;!-- Required meta tags --&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
   &lt;meta content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; name=&quot;viewport&quot;&gt;
@@ -350,7 +330,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the <b>L
           background-repeat: no-repeat;
           background-size: 1ex;
           background-origin: content-box;
-          background-image: url(&quot;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0ic3ZnMiIKICAgdmlld0JveD0iMCAwIDM1Ljk3MDk4MyAyMy4wOTE1MTgiCiAgIGhlaWdodD0iNi41MTY5Mzk2bW0iCiAgIHdpZHRoPSIxMC4xNTE4MTFtbSI+CiAgPGRlZnMKICAgICBpZD0iZGVmczQiIC8+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNyI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgICAgIDxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz4KICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+CiAgPGcKICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjAyLjAxNDUxLC00MDcuMTIyMjUpIgogICAgIGlkPSJsYXllcjEiPgogICAgPHRleHQKICAgICAgIGlkPSJ0ZXh0MzMzNiIKICAgICAgIHk9IjYyOS41MDUwNyIKICAgICAgIHg9IjI5MS40Mjg1NiIKICAgICAgIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zaXplOjQwcHg7bGluZS1oZWlnaHQ6MTI1JTtmb250LWZhbWlseTpzYW5zLXNlcmlmO2xldHRlci1zcGFjaW5nOjBweDt3b3JkLXNwYWNpbmc6MHB4O2ZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MXB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICB4bWw6c3BhY2U9InByZXNlcnZlIj48dHNwYW4KICAgICAgICAgeT0iNjI5LjUwNTA3IgogICAgICAgICB4PSIyOTEuNDI4NTYiCiAgICAgICAgIGlkPSJ0c3BhbjMzMzgiPjwvdHNwYW4+PC90ZXh0PgogICAgPGcKICAgICAgIGlkPSJ0ZXh0MzM0MCIKICAgICAgIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZTo0MHB4O2xpbmUtaGVpZ2h0OjEyNSU7Zm9udC1mYW1pbHk6Rm9udEF3ZXNvbWU7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpGb250QXdlc29tZTtsZXR0ZXItc3BhY2luZzowcHg7d29yZC1zcGFjaW5nOjBweDtmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjFweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxIj4KICAgICAgPHBhdGgKICAgICAgICAgaWQ9InBhdGgzMzQ1IgogICAgICAgICBzdHlsZT0iZmlsbDojMzMzMzMzO2ZpbGwtb3BhY2l0eToxIgogICAgICAgICBkPSJtIDIzNy41NjY5Niw0MTMuMjU1MDcgYyAwLjU1ODA0LC0wLjU1ODA0IDAuNTU4MDQsLTEuNDczMjIgMCwtMi4wMzEyNSBsIC0zLjcwNTM1LC0zLjY4MzA0IGMgLTAuNTU4MDQsLTAuNTU4MDQgLTEuNDUwOSwtMC41NTgwNCAtMi4wMDg5MywwIEwgMjIwLDQxOS4zOTM0NiAyMDguMTQ3MzIsNDA3LjU0MDc4IGMgLTAuNTU4MDMsLTAuNTU4MDQgLTEuNDUwODksLTAuNTU4MDQgLTIuMDA4OTMsMCBsIC0zLjcwNTM1LDMuNjgzMDQgYyAtMC41NTgwNCwwLjU1ODAzIC0wLjU1ODA0LDEuNDczMjEgMCwyLjAzMTI1IGwgMTYuNTYyNSwxNi41NDAxNyBjIDAuNTU4MDMsMC41NTgwNCAxLjQ1MDg5LDAuNTU4MDQgMi4wMDg5MiwwIGwgMTYuNTYyNSwtMTYuNTQwMTcgeiIgLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=&quot;);
+          
       }
       .footer {
         padding: 35px 0 30px 0;
@@ -437,7 +417,7 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the <b>L
             &lt;/li&gt;
             &lt;li&gt;
               &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-google-plus-square&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-            &lt;/li&gt;
+            &lt;/li&gt; 
           &lt;/ul&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -492,15 +472,14 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the <b>L
   &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-
-
-</code></pre><!-- finish the exited code here -->   
-
-
-</div>
-  </div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+				
+			</code>
+			
+	</div>
+		</div>
 <br>
+    <div class="col-sm-6">
+      
 <!-- Logo URL -->
       
 <form id="form_a" action="previews/preview-email.php" method="post" target="_blank">
@@ -521,20 +500,18 @@ Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the <b>L
 <input type="hidden" name="ecta" value="<?php echo htmlspecialchars($ecta); ?>" >
 <input type="hidden" name="ctaColour" value="<?php echo htmlspecialchars($ctaColour); ?>" >
 <input type="hidden" name="copyWrite" value="<?php echo htmlspecialchars($copyWrite); ?>" >
-<button id="sendMessageButton2" class="btn btn-primary btn-xl text-uppercase" formaction="previews/preview-email.php" type="submit">Preview Email</button><p></p>
+
+	<button id="sendMessageButton2" class="btn btn-primary btn-xl text-uppercase" formaction="previews/preview-email.php" type="submit">Preview Your Email</button><p></p>
 
 <div class="bd-example" data-example-id="">
-Click <code class="highlighter-rouge">&lt;COPY&gt;</code> below to copy the <b>Email</b> code to the pasteboard.</div>
-<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard"></span></div><div class="highlight">
+Once you have Previewed your email, click <code class="highlighter-rouge">&lt;COPY EDM CODE&gt;</code> below to copy the <b>Email</b> code to the pasteboard.</div>
+<br>
+<button id="copyEDMcode" class="btn btn-primary btn-xl text-uppercase" data-clipboard-target="#edmContent" type="button">Copy EDM Code</button><p></p>
 
-
-
-
-<pre><code><!-- put the exited code here -->
-
+<pre><code><div class="highlight" id="edmContent">  
 &lt;!-- THIS EMAIL WAS BUILT BY LITMUS http://litmus.com --&gt;
 &lt;!-- RELEASED UNDER THE MIT LICENSE https://opensource.org/licenses/MIT --&gt;
-&lt;!-- Template Modified by DSolomons | Voltron Ventures --&gt;
+&lt;!-- Template Modified by DSolomons | dsolomons@salesforce.com | Voltron Ventures --&gt;
 &lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -654,7 +631,7 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
                         &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
                           &lt;tbody&gt;
                             &lt;tr&gt;
-                              &lt;td align=&quot;center&quot; bgcolor=&quot;<?php echo $edmformHeadBgColour ?>&quot; pardot-data=&quot;&quot; style=&quot;border-radius: 26px; background:<?php echo $edmformHeadBgColour ?>;&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $edmformHeadBgColour ?>; padding: 14px 26px; border: 1px solid <?php echo $edmformHeadBgColour ?>; display: block;&quot; target=&quot;_blank&quot;&gt;<?php  echo $ecta;?>&lt;/a&gt;&lt;/td&gt;
+                              &lt;td align=&quot;center&quot; bgcolor=&quot;<?php echo $ctaColour ?>&quot; pardot-data=&quot;&quot; style=&quot;border-radius: 26px; background:<?php echo $ctaColour ?>;&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $ctaColour ?>; padding: 14px 26px; border: 1px solid <?php echo $ctaColour ?>; display: block;&quot; target=&quot;_blank&quot;&gt;<?php  echo $ecta;?>&lt;/a&gt;&lt;/td&gt;
                             &lt;/tr&gt;
                           &lt;/tbody&gt;
                         &lt;/table&gt;
@@ -700,144 +677,81 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-
-
-
-</code></pre><!-- finish the exited code here -->   
-
-
-</div>
-  </div>
-  
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-</div>
-</div>
-</div>
-
-
-<!-- end content here -->
-    </div>
+        
+      </code>
+      
   </div>
 </div>
 
-
-<!-- ORIGINAL --> 
-
-   
-
-    <!-- About Section 
-    <section class="success" id="about">
-      <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-light">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-          </div>
-          <div class="col-lg-8 mx-auto text-center">
-            <a href="#" class="btn btn-lg btn-outline">
-              <i class="fa fa-download"></i>
-              Download Theme
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>. -->
-
-    <!-- Footer -->
-    <footer class="text-center">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-           
-            <div class="col-lg-12">
-               PLP-Gen V2.0 (Rel 01.18) by<br>
-    <img class="asset-image" src="Assets/Voltron_Logo_Rev_2.png" width="600px">
-    <br>Landing Page Template Created By: Jenna Molby | www.jennamolby.com
-        <br>Email Template Created By: Litmus | http://litmus.com
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Voltron Ventures 2018
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top d-lg-none">
-      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-    
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/jquery/jquery.min.js"></script>
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
- 
-
-    <!-- Plugin JavaScript -->
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-
-<!-- from original results -->
-
-<script src="Bootstrap_files/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="previews/Bootstrap_files/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>')</script>
-
-<script src="Bootstrap_files/tether.min.js"></script>
-
-
-  <script src="Bootstrap_files/bootstrap.min.js"></script>
-
-
-
-  <script src="Bootstrap_files/anchor.min.js"></script>
-
-  <script src="Bootstrap_files/clipboard.min.js"></script>
-
-  <script src="Bootstrap_files/holder.min.js"></script>
-
-  <script src="Bootstrap_files/application.js"></script>
+  <script src="previews/Bootstrap_files/tether.min.js"></script>
+  <script src="previews/Bootstrap_files/bootstrap.min.js"></script>
+  <script src="previews/Bootstrap_files/anchor.min.js"></script>
+  <script src="previews/Bootstrap_files/clipboard.min.js"></script>
+  <script src="previews/Bootstrap_files/holder.min.js"></script>
+  <script src="previews/Bootstrap_files/application.js"></script>
 
 
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
-<script src="Bootstrap_files/ie-emulation-modes-warning.js"></script>
+	<!-- jQuery -->
+	<script src="previews/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="previews/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="previews/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="previews/js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="previews/js/jquery.flexslider-min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+<script type="text/javascript">
+  
+  var clipboard = new ClipboardJS('#copyLPcode');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+    $("#copyLPcode").text("Code Copied!");
+    setTimeout(function () {$("#copyLPcode").text("Copy LP Code");},2000);
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
 
 
-<script src="Bootstrap_files/jekyll-search.min.js"></script>
+
+</script>
+
+<script type="text/javascript">
+  
+  var clipboard = new ClipboardJS('#copyEDMcode');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+    $("#copyEDMcode").text("Code Copied!");
+    setTimeout(function () {$("#copyEDMcode").text("Copy EDM Code");},2000);
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
 
 
 
+</script>
 
-  </body>
-
+	</body>
 </html>
+

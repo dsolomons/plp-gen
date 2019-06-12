@@ -1,462 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119753873-1');
-</script>
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PLP Gen &mdash; Get Pardot on the brain</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Pardot Code Generator - Clicks Not Code" />
+	<meta name="keywords" content="pardot, landing page, mobile responsive, code free" />
+	<meta name="author" content="David Solomons - Voltron Ventures" />
 
 
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Pardot Landing Page Generator. Clicks not code (but some code, but Voltron made it easy, so that's ok...">
-    <meta name="author" content="">
+  	<!-- 
+	//////////////////////////////////////////////////////
 
-    <title>PCG - Pardot Code Gen</title>
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-    <!-- Bootstrap core CSS -->
+	//////////////////////////////////////////////////////
+	-->
 
-    <!-- Latest compiled and minified CSS -->
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="images/flav-p3.png">
 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-<!-- Plugin CSS -->
-<link href="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
+			<h1 id="fh5co-logo"><a href="index.php">Pardot<br>Code-Gen</a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li class="fh5co-active"><a>Build A Custom</a></li>
+					<li><a href="landing.php">*Landing Page*</a></li>
+					<li><a href="edm.php">*Email*</a></li>
+					<li><a href="combo.php">*Both*</a></li>
+					<li>.</li>					
+					<li><a href="howto.php" target="_blank">How To Use</a></li>
+					<li><a href="help.php" target="_blank">Help</a></li>
+				</ul>
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+			</nav>
 
-<!-- Favicons -->
-<link rel="apple-touch-icon" href="Assets/flav-p3.png">
-<link rel="icon" href="Assets/flav-p3.png">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="index.php">PCG</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="htu.html" target="_blank">How to use</a>
-            </li> 
-             <li class="nav-item">
-              <a class="nav-link"> | </a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="lpd.html" target="_blank">LandingPage Details</a>
-            </li> 
-             <li class="nav-item">
-              <a class="nav-link"> | </a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="edmd.html" target="_blank">Email Details</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"> | </a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="rap.html" target="_blank">Report a Problem</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-    
-        <div class="intro-text">
-          <span class="name">PCG</span>
-          <hr class="star-light">
-          <span class="skills">Pardot Code Generator - Clicks <i>not</i> Code<br>(but some code, but Voltron made it easy, so that's ok then!)</span>
-        </div>
-      </div>
-    </header>
-
-
-
-
-
-<div class="container">
-<div class="row">
-   <div class="col-md-3">
-                </div>
-                <div class="col-md-6">
-        <div class="col-xl-12 text-centered">
-        <div class="input-group">
-          <ul class="nav nav-tabs mb-3 center-pills" id="pills-tab" role="tablist">
-   
-
-
-
-            
-
-  <li class="nav-item">
-    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Landing Page Only</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Email Only</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Landing Page and Email</a>
-  </li>
-</ul>
-
-
-           
-      </div>         
-      </div>
-    </div>
-  </div>
+			<div>
+		<span><br><br>	<p style="text-align:center;"> <img href="https://pub.s4.exacttarget.com/25kdvgge4om" target="_blank" src="https://plp-gen.herokuapp.com/Assets/Voltron_Logo_Rev_2.png" style="max-height: 50px;"/>	</p></span>
 </div>
 
+		</aside>
 
+		<div id="fh5co-main">
+			<aside id="fh5co-hero" class="js-fullheight">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+						<!-- Taken out until industry pages exist
+				   	<li style="background-image: url(images/rocket.png);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<h1>NTO, Makana, Cumulus, Palonia!<strong></strong></h1>
+					   					<h2>With Industry Pages, you can take the page as is or customise it to your brand.</h2>
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="industry.php"></i>Go to Industry Pages</a></p>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li> -->
+				   	<li style="background-image: url(images/astro.png);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<h1>Custom Builds<strong></strong></h1>
+					   					<h2>Craft custom content without coding <strong>ANNNDDD</strong> get it done in minutes not days!</h2>
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="custom.php"></i>Go to Custom Builds</a></p>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/ufo.png);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<h1>Experience Builder</h1>
+											<h2>Show don't tell. Build engaging stories quickly.</h2>
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://experiencebuilder.net" target="_blank">Experience Builder</a></p>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</aside>
+			
+			
+	</div>
+		
+	
 
-<div class="container-fluid">
-<div class="row">
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-6">
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
 
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
-<form action="results1.php" method="post">
-<input type="hidden" name="tab" value="1">
-<br>
-<!-- Logo URL -->
-                <div class="form-group">
-                    <input class="form-control" name="logo" type="text" placeholder="logo url" ></p>
-                </div>
-                <!-- head1  -->
-                <div class="form-group">
-                <input class="form-control" name="head1" type="text" placeholder="head 1 text" ></p>
-                </div>
-                <!-- head1Colour -->
-                <div class="form-group">
-                <input class="form-control" name="head1Colour" type="text" label="123" placeholder="head 1 colour" ></p>
-                </div>
-                <!-- head2 -->
-                <div class="form-group">
-                    <input class="form-control" name="head2" type="text" placeholder="head 2 text" ></p>
-                </div>
-                <!-- head2Colour -->
-                <div class="form-group">
-                    <input class="form-control" name="head2Colour" type="text" placeholder="head 2 colour" ></p>
-                </div>
-                 <!-- imageUrl -->
-                <div class="form-group">
-                    <input class="form-control" name="imageUrl" type="text" placeholder="image url" ></p>
-                </div>
-                
-               
-                <!-- para1Text-->
-                <div class="form-group">
-                  <textarea class="form-control" name="para1Text" placeholder="paragraph 1 text" rows="4"></textarea>
-                    <!-- <input class="form-control" name="para1Text" type="textarea" placeholder="paragraph 1 text" ></p> -->
-                </div>
-                <!-- para2Text -->
-                <div class="form-group">
-                  <textarea class="form-control" name="para2Text" placeholder="paragraph 2 text" rows="4"></textarea>
-                <!--    <input class="form-control" name="para2Text" type="textarea" placeholder="paragraph 2 text" ></p> -->
-                </div>
-                <!-- cta -->
-                <div class="form-group">
-                    <input class="form-control" name="cta" type="text" placeholder="lp call to action text EG. Submit the form and we will send you..." ></p>
-                </div>
-                <!-- ctaColour -->
-                <div class="form-group">
-                    <input class="form-control" name="ctaColour" type="text" placeholder="cta text colour" ></p>
-                </div>
-                <!-- formHead -->
-                <div class="form-group">
-                    <input class="form-control" name="formHead" type="text" placeholder="form head text" ></p>
-                </div>
-                <!-- formHeadColour -->
-                <div class="form-group">
-                    <input class="form-control" name="formHeadColour" type="text" placeholder="form head text colour" ></p>
-                </div>
-                <!-- formHeadBgColour -->
-                <div class="form-group">
-                    <input class="form-control" name="formHeadBgColour" type="text" placeholder="form head bg colour" ></p>
-                </div>
-               
-                <!-- copyWrite -->
-                <div class="form-group">
-                    <input class="form-control" name="copyWrite" type="text" placeholder="copyright company name *REQUIRED*" required="true"></p>
-                </div>
-
-<div class="col-lg-12 text-center">
-<div id="success"></div>
-<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" formaction="results1.php" type="submit">Generate LP Code!</button><p></p>
-</div>
-</form>
-
-  </div>
-
-
-
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-<form action="results2.php" method="post">
-<input type="hidden" name="tab" value="2">
-<br>
-<!-- Logo URL -->
-                <div class="form-group">
-                    <input class="form-control" name="logo" type="text" placeholder="logo url" ></p>
-                </div>
-                <!-- head1  -->
-                <div class="form-group">
-                <input class="form-control" name="head1" type="text" placeholder="head 1 text" ></p>
-                </div>
-                <!-- head1Colour -->
-                <div class="form-group">
-                <input class="form-control" name="head1Colour" type="text" label="123" placeholder="head 1 colour" ></p>
-                </div>
-                <!-- head2 
-                <div class="form-group">
-                    <input class="form-control" name="head2" type="text" placeholder="head 2 text" ></p>
-                </div> -->
-                <!-- head2Colour 
-                <div class="form-group">
-                    <input class="form-control" name="head2Colour" type="text" placeholder="head 2 colour" ></p>
-                </div> -->
-                 <!-- imageUrl -->
-                <div class="form-group">
-                    <input class="form-control" name="imageUrl" type="text" placeholder="image url" ></p>
-                </div>
-                
-               
-                <!-- para1Text-->
-                <div class="form-group">
-                  <textarea class="form-control" name="para1Text" placeholder="paragraph 1 text" rows="4"></textarea>
-                    <!-- <input class="form-control" name="para1Text" type="textarea" placeholder="paragraph 1 text" ></p> -->
-                </div>
-                <!-- para2Text -->
-                <div class="form-group">
-                  <textarea class="form-control" name="para2Text" placeholder="paragraph 2 text" rows="4"></textarea> 
-                <!--    <input class="form-control" name="para2Text" type="textarea" placeholder="paragraph 2 text" ></p> -->
-                </div>
-                <!-- ecta -->
-                <div class="form-group">
-                    <input class="form-control" name="ecta" type="text" placeholder="email call to action text EG Click to download..." ></p>
-                </div>
-                   <!-- formHeadBgColour -->
-                <div class="form-group">
-                    <input class="form-control" name="edmformHeadBgColour" type="text" placeholder="header bg + cta button colour" ></p>
-                </div>
-                <!-- ctaColour -->
-                <div class="form-group">
-                    <input class="form-control" name="ctaColour" type="text" placeholder="cta text colour - best to leave this white!" ></p>
-                </div>
-                <!-- copyWrite -->
-                <div class="form-group">
-                    <input class="form-control" name="copyWrite" type="text" placeholder="copyright company name *REQUIRED*" required="true"></p>
-                </div>
-
-<div class="col-lg-12 text-center">
-<div id="success"></div>
-<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" formaction="results3.php" type="submit">Generate EDM Code!</button><p></p>
-</div>
-</form>
-  </div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-<form action="results3.php" method="post">
-<input type="hidden" name="tab" value="3">
-<br>
-<!-- Logo URL -->
-                <div class="form-group">
-                    <input class="form-control" name="logo" type="text" placeholder="logo url" ></p>
-                </div>
-                <!-- head1  -->
-                <div class="form-group">
-                <input class="form-control" name="head1" type="text" placeholder="head 1 text" ></p>
-                </div>
-                <!-- head1Colour -->
-                <div class="form-group">
-                <input class="form-control" name="head1Colour" type="text" label="123" placeholder="head 1 colour" ></p>
-                </div>
-                <!-- head2 -->
-                <div class="form-group">
-                    <input class="form-control" name="head2" type="text" placeholder="head 2 text" ></p>
-                </div>
-                <!-- head2Colour -->
-                <div class="form-group">
-                    <input class="form-control" name="head2Colour" type="text" placeholder="head 2 colour" ></p>
-                </div>
-                 <!-- imageUrl -->
-                <div class="form-group">
-                    <input class="form-control" name="imageUrl" type="text" placeholder="image url" ></p>
-                </div>
-                
-               
-                <!-- para1Text-->
-                <div class="form-group">
-                  <textarea class="form-control" name="para1Text" placeholder="paragraph 1 text" rows="4"></textarea>
-                    <!-- <input class="form-control" name="para1Text" type="textarea" placeholder="paragraph 1 text" ></p> -->
-                </div>
-                <!-- para2Text -->
-                <div class="form-group">
-                  <textarea class="form-control" name="para2Text" placeholder="paragraph 2 text" rows="4"></textarea>
-                <!--    <input class="form-control" name="para2Text" type="textarea" placeholder="paragraph 2 text" ></p> -->
-                </div>
-                <!-- cta -->
-                <div class="form-group">
-                    <input class="form-control" name="cta" type="text" placeholder="lp call to action text EG. Submit the form and we will send you..." ></p>
-                </div>
-                 <!-- ecta -->
-                <div class="form-group">
-                    <input class="form-control" name="ecta" type="text" placeholder="email call to action text EG Click to download..." ></p>
-                </div>
-                <!-- ctaColour -->
-                <div class="form-group">
-                    <input class="form-control" name="ctaColour" type="text" placeholder="cta text colour" ></p>
-                </div>
-               
-                <!-- formHead -->
-                <div class="form-group">
-                    <input class="form-control" name="formHead" type="text" placeholder="form head text" ></p>
-                </div>
-                <!-- formHeadColour -->
-                <div class="form-group">
-                    <input class="form-control" name="formHeadColour" type="text" placeholder="form head text colour" ></p>
-                </div>
-                <!-- formHeadBgColour -->
-                <div class="form-group">
-                    <input class="form-control" name="formHeadBgColour" type="text" placeholder="form head bg colour" ></p>
-                </div>
-               <!-- EDM formHeadBgColour -->
-                <div class="form-group">
-                    <input class="form-control" name="edmformHeadBgColour" type="text" placeholder="edm header bg + edm cta button colour" ></p>
-                </div>
-
-                <!-- copyWrite -->
-                <div class="form-group">
-                    <input class="form-control" name="copyWrite" type="text" placeholder="copyright company name *REQUIRED*" required="true"></p>
-                </div>
-
-<div class="col-lg-12 text-center">
-<div id="success"></div>
-<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" formaction="results2.php" type="submit">Generate LP + EDM Code!</button><p></p>
-</div>
-</form>
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-<!-- ORIGINAL --> 
-
-   
-
-    <!-- About Section 
-    <section class="success" id="about">
-      <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-light">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-          </div>
-          <div class="col-lg-8 mx-auto text-center">
-            <a href="#" class="btn btn-lg btn-outline">
-              <i class="fa fa-download"></i>
-              Download Theme
-            </a>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Footer -->
-    <footer class="text-center">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-           
-            <div class="col-lg-12">
-               PLP-Gen V2.0 (Rel 01.18) by<br>
-    <img class="asset-image" src="Assets/Voltron_Logo_Rev_2.png" width="600px">
-    <br>Landing Page Template Created By: Jenna Molby | www.jennamolby.com
-        <br>Email Template Created By: Litmus | http://litmus.com
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Voltron Ventures 2018
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top d-lg-none">
-      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-    <!--
-    <script src=“https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=“sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=“anonymous”></script>
-    <script src=“https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js” integrity=“sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” crossorigin=“anonymous”></script>
-    <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js” integrity=“sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4” crossorigin=“anonymous”></script>
--->
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/jquery/jquery.min.js"></script>
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
- 
-
-    <!-- Plugin JavaScript -->
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-
-  </body>
-
+	</body>
 </html>
+

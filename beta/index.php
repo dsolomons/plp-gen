@@ -112,9 +112,9 @@
 				   			<div class="row">
 					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
 					   				<div class="slider-text-inner">
-					   					<h1>Custom Builds<strong></strong></h1>
-					   					<h2>Craft custom content without coding <strong>ANNNDDD</strong> get it done in minutes not days!</h2>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="custom.php"></i>Go to Custom Builds</a></p>
+					   					<h1><strong>The Beta Is Live</strong></h1>
+					   					<h2>Click below to go to the live page</h2>
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="http://plp-gen.herokuapp.com/"></i>GO TO PLP GEN</a></p>
 					   				</div>
 					   			</div>
 					   		</div>
@@ -126,9 +126,9 @@
 				   			<div class="row">
 					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
 					   				<div class="slider-text-inner">
-					   					<h1>Experience Builder</h1>
-											<h2>Show don't tell. Build engaging stories quickly.</h2>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://experiencebuilder.net" target="_blank">Experience Builder</a></p>
+					   					<h1><strong>The Beta Is Live</strong></h1>
+					   					<h2>Click below to go to the live page</h2>
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="http://plp-gen.herokuapp.com/"></i>GO TO PLP GEN</a></p>
 					   				</div>
 					   			</div>
 					   		</div>

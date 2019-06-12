@@ -23,16 +23,23 @@ $copyWrite = $_POST['copyWrite'];
 <!-- THIS EMAIL WAS BUILT BY LITMUS http://litmus.com  -->
 <!--RELEASED UNDER THE MIT LICENSE https://opensource.org/licenses/MIT  -->
 <!-- Template Modified by DSolomons | Voltron Ventures  -->
-<!-- THIS PAGE IS BADLY NAMED - THIS IS THE EMAIL PREVIEW PAGE -->
 
 <!doctype html>
 <html>
 <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119753873-1');
+</script>
+
 <title></title>
 <style type="text/css">
-
-
-
 /* CLIENT-SPECIFIC STYLES */
 body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
@@ -79,19 +86,8 @@ a[x-apple-data-detectors] {
 /* ANDROID CENTER FIX */
 div[style*="margin: 16px 0;"] { margin: 0 !important; }
 </style>
-
-<!-- Global site tag (gtag.js) - Google Analytics Connected to GA For Pardot Code Gen -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119753873-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119753873-1');
-</script>
-
 </head>
-<body style="margin: 0 !important; padding: 0; !important background-color: #fff;" bgcolor="<?php echo $head2 ?>">
+<body style="margin: 0 !important; padding: 0; !important background-color: #ffffff;" bgcolor="#ffffff">
 <!-- HIDDEN PREHEADER TEXT -->
 <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Open Sans, Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Lorem ipsum dolor que ist</div>
 
@@ -132,7 +128,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
             <table border="0" cellpadding="0" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td align="center" bgcolor="#000000" pardot-data="" style="border-radius: 3px 3px 0px 0px; background: rgb(0, 0, 0);" class=""><img alt="insert alt text here" class="img-max" height="401" src="<?php  echo $imageUrl;?>" style="display: block; border-radius: 3px 3px 0px 0px; font-family: sans-serif; font-size: 16px; color: rgb(153, 153, 153); width: 600px; height: 401px;" width="600"></td>
+                  <td align="center" bgcolor="#ffffff" pardot-data="" style="border-radius: 3px 3px 0px 0px; background: rgb(255, 255, 255);" class=""><img alt="insert alt text here" class="img-max" height="401" src="<?php  echo $imageUrl;?>" style="display: block; border-radius: 3px 3px 0px 0px; font-family: sans-serif; font-size: 16px; color: rgb(153, 153, 153); width: 600px; height: 401px;" width="600"></td>
                 </tr>
                 <tr>
                   <td align="center" bgcolor="#ffffff" style="border-radius: 0 0 3px 3px; padding: 25px;">
@@ -162,7 +158,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
                         <table border="0" cellpadding="0" cellspacing="0">
                           <tbody>
                             <tr>
-                              <td align="center" bgcolor="#<?php echo $ctaColour ?>" pardot-data="" style="border-radius: 26px; background:<?php echo $ctaColour ?>;" class=""><a href="https://pardot.com" style="font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $ctaColour ?>; padding: 14px 26px; border: 1px solid <?php echo $ctaColour ?>; display: block;" target="_blank"><?php  echo $ecta;?></a></td>
+                              <td align="center" bgcolor="#<?php echo $edmformHeadBgColour ?>" pardot-data="" style="border-radius: 26px; background:<?php echo $edmformHeadBgColour ?>;" class=""><a href="https://pardot.com" style="font-size: 16px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 26px; background-color: <?php echo $edmformHeadBgColour ?>; padding: 14px 26px; border: 1px solid <?php echo $edmformHeadBgColour ?>; display: block;" target="_blank"><?php  echo $ecta;?></a></td>
                             </tr>
                           </tbody>
                         </table>
