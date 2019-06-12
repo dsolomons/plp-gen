@@ -78,7 +78,7 @@
 					<li><a href="howto.php" target="_blank">How To Use</a></li>
 					<li><a href="help.php" target="_blank">Help</a></li>
 					<li>.</li>					
-					<li><a href="/index.php" target="_blank">Classic Builder</a></li>
+					<li><a href="/classic/index.php" target="_blank">Classic Builder</a></li>
 				</ul>
 
 			</nav>
