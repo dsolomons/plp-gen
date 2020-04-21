@@ -295,7 +295,7 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
                         &lt;/td&gt;
                       &lt;/tr&gt;
                       &lt;tr&gt;
-                        &lt;td align=&quot;center&quot; style=&quot;font-family: Open Sans, Helvetica, Arial, sans-serif;&quot; class=&quot;&quot;&gt;&lt;h2 style=&quot;font-size: 20px; color: #444444; margin: 0; padding-bottom: 10px;&quot;&gt;Hi {{Recipient.FirstName}},&amp;nbsp;&lt;br&gt;&lt;/h2&gt;
+                        &lt;td align=&quot;center&quot; style=&quot;font-family: Open Sans, Helvetica, Arial, sans-serif;&quot; class=&quot;&quot;&gt;&lt;h2 style=&quot;font-size: 20px; color: #444444; margin: 0; padding-bottom: 10px;&quot;&gt;Hi %%first_name%%,&amp;nbsp;&lt;br&gt;&lt;/h2&gt;
 
 
 &lt;p style=&quot;color: #999999; font-size: 16px; line-height: 24px; margin: 0;&quot;&gt;<?php echo $para1Text;?>&lt;br&gt;&amp;nbsp;&lt;/p&gt;
@@ -335,8 +335,8 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
                   &lt;td align=&quot;center&quot; style=&quot;padding: 0 0 5px 0;&quot; valign=&quot;top&quot; class=&quot;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;<?php  echo $logo;?>&quot; style=&quot;display: block; width: 180px; border-width: 0px; border-style: solid;&quot; width=&quot;180&quot;&gt;&lt;/td&gt;
                 &lt;/tr&gt;
                 &lt;tr&gt;
-                  &lt;td align=&quot;center&quot; style=&quot;padding: 0; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #999999;&quot; valign=&quot;top&quot; class=&quot;&quot;&gt;2020 <?php  echo $Copyright;?> All rights reserved.
-                  &lt;p style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;color: #999999;&quot; target=&quot;_blank&quot;&gt;View Online&lt;/a&gt; &amp;nbsp; • &amp;nbsp; {{emailpreferencecenter}}&lt;/p&gt;
+                  &lt;td align=&quot;center&quot; style=&quot;padding: 0; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #999999;&quot; valign=&quot;top&quot; class=&quot;&quot;&gt;2017 <?php  echo $copyWrite;?> All rights reserved.
+                  &lt;p style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;color: #999999;&quot; target=&quot;_blank&quot;&gt;View Online&lt;/a&gt; &amp;nbsp; • &amp;nbsp; %%unsubscribe%%&lt;/p&gt;
                   &lt;/td&gt;
                 &lt;/tr&gt;
               &lt;/tbody&gt;

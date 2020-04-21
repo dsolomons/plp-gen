@@ -618,8 +618,8 @@ font-family: &apos;Open Sans&apos;, sans-serif;
   &lt;div class=&quot;footer&quot;&gt;
     &lt;div class=&quot;container&quot;&gt;
       &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-sm-12 text-center Copyright&quot; pardot-region=&quot;copyright&quot;&gt;
-          &amp;copy; 2020 <?php  echo $copyWrite;?>
+        &lt;div class=&quot;col-sm-12 text-center copyright&quot; pardot-region=&quot;copyright&quot;&gt;
+          &amp;copy; 2018 <?php  echo $copyWrite;?>
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
