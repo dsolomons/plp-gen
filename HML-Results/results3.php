@@ -336,7 +336,8 @@ div[style*=&quot;margin: 16px 0;&quot;] { margin: 0 !important; }
                 &lt;/tr&gt;
                 &lt;tr&gt;
                   &lt;td align=&quot;center&quot; style=&quot;padding: 0; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #999999;&quot; valign=&quot;top&quot; class=&quot;&quot;&gt;2020 <?php  echo $Copyright;?> All rights reserved.
-                  &lt;p style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;color: #999999;&quot; target=&quot;_blank&quot;&gt;View Online&lt;/a&gt; &amp;nbsp; • &amp;nbsp; {{emailpreferencecenter}}&lt;/p&gt;
+                  &lt;p style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;a href=&quot;https://pardot.com&quot; style=&quot;color: #999999;&quot; target=&quot;_blank&quot;&gt;View Online&lt;/a&gt; &amp;nbsp; 
+                  &lt;p style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;a href=&quot;{{emailpreferencecenter}}&quot; style=&quot;color: #999999;&quot; target=&quot;_blank&quot;&gt;Email Prefs&lt;/a&gt; &amp;nbsp;
                   &lt;/td&gt;
                 &lt;/tr&gt;
               &lt;/tbody&gt;
