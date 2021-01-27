@@ -160,7 +160,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 					<div class="col-md-10">
 				
 
-<a href="http://www2.lenoxsoft.com/l/396142/2019-03-19/26cpt5" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
+<a href="http://www3.lenoxsoft.com/l/218951/2021-01-26/35j38" class="btn btn-primary btn-xl text-uppercase" type="submit" target="_blank">Preview LP Template</a>
 
 
 					</p>
